@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@common/*": [
+        "app/components/common/*"
+      ],
+      "@home/*": [
+        "app/components/home/*"
+      ],
+      "@styles/*": [
+        "public/styles/*"
+      ],
+      "@public/*": [
+        "public/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@components/*": [
+        "app/components/*"
+      ],
+    }
+  }
+}

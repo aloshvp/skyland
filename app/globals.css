@@ -1,0 +1,21 @@
+@import url("@styles//font.css");
+
+:root {--greenBlue:#47BEB1;--blue:#0095D3;--yellow:#F2C337;--grey:#9F9F9F;}
+.container{width:100%;margin-right:auto;margin-left:auto;padding-right:1rem;padding-left:1rem}
+*{margin:0;padding:0;box-sizing:border-box}
+ul,ol{list-style:none}
+a,a:focus, a:active{text-decoration:none;color:inherit; -webkit-tap-highlight-color: transparent;outline: none;}
+body{font-family: var(--font-poppins), sans-serif;font-weight: 400;color:#000;background-color:#fff}
+img{max-width:100%;height:auto;display:block}
+button{background:none;border:none;cursor:pointer;font:inherit}
+table{border-collapse:collapse;border-spacing:0}
+h1,h2,h3,h4,h5,h6{font-weight:normal;margin:0}
+p{margin:0}
+p>em{display:block}
+input,input:focus,input:active,input:focus-visible{outline:none!important;box-shadow:none!important}
+select:focus,select:active,select:focus-visible{outline:none;box-shadow:none}
+html{scroll-behavior:smooth}
+
+@media (min-width: 1600px) {
+  .container { max-width: 100% !important; padding-left: 100px; padding-right: 100px; }
+}

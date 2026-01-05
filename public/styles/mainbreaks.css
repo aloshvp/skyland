@@ -1,0 +1,123 @@
+@media screen and (min-width: 1800px) {
+
+}
+
+@media screen and (min-width: 1600px) {
+
+    /*Header*/
+    .navLinksList{gap:90px;}
+
+}
+
+@media screen and (min-width: 1440px) {
+    /*Header*/
+    .navLinksList{gap:60px;}
+    .headerWrap.scrolled .headerNavLinks .navLinksList{gap:50px;}
+
+    
+}
+
+@media screen and (min-width: 1300px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    /*header*/
+    .navLinksList > li > a{font-size: 18px;}
+    .talkWithUsSec span{font-size: 16px;}
+    .headerLogo > img{max-width: 100px;}
+    .headerWrap.scrolled .headerLogo > img {top: -35px;}
+
+    /* Why Choose Us Home */    
+    .whyChooseContent.paddingLeft{padding-left:30px}
+    .whyChooseContent.paddingRight{padding-right:30px}
+
+   
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    /*header mobile menu*/
+    .headerNavLinks {display: none;}
+    .hamburger.active span:nth-child(1) {transform: rotate(45deg) translate(5px, 5px);}
+    .hamburger.active span:nth-child(2) {opacity: 0;}
+    .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(7px, -6px);}
+    .talkWithUsSec{width: 120px;display: flex;align-items: center;justify-content: center;position: relative;}
+    .headerWrap.scrolled .headerSec{height: 65px;padding: 25px 0 0;}
+    .talkWithUsIcon{bottom: 5px;left: -18px;}
+    .headerWrap.scrolled .headerLogo > img{max-width: 70px;top:0px;position: absolute;left: 70px;}
+
+    /* Home Gallery */
+    .homeGalleryGrid{grid-template-columns:repeat(2,1fr)}
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    /*header*/
+    .whatsappBtnWrap{right: 25px;}
+
+    /*banner*/
+    .bannerContent h1{margin-bottom: 25px;}
+    .bannerContent p{margin: 0 auto;padding: 0 65px;}
+    .bannerSlide{height:750px;}
+    .bannerWrapper .swiper-pagination{right:25px!important;} 
+
+    /* Home Gallery */
+    .galleryItem{height: 400px;}
+    .galleryContent h3{font-size: 50px;}
+
+    /* Why Choose Us Home */    
+    .whyChooseSection{padding:50px 0 20px}
+    .whyChooseSection.pdHome{padding:50px 0 20px}
+    .whyChooseImage{margin:0 0 30px}
+    .whyChooseContent.paddingLeft{padding-left:0}
+    .whyChooseContent.paddingRight{padding-right:0}
+    .whyChooseAccordion .accordion-button{font-family:'neue_haas_grotesk_display65Md';font-size:18px;padding:15px 0}
+    .whyChooseAccordion .titleSmall{font-size:15px;margin:0 0 10px}
+
+}
+
+@media only screen and (max-width: 767px) {  
+
+    /*header*/
+    .whatsappBtnWrap{right: 15px;}
+    .headerWrap.scrolled .talkWithUsSec span{font-size: 14px;}
+    .headerWrap.scrolled .headerSec {padding: 20px 0 0; }
+    .hamburger{gap: 7px;}
+    .headerWrap.scrolled .talkWithUsIcon{width: 18px;height: 18px;left: 0px;bottom: 25px;}
+    .talkWithUsSec{align-items: flex-start;}
+    .sidebarContent{width: 350px;max-width: 85vw;}
+    .headerWrap.scrolled .headerLogo > img { left: 60px;}
+
+    /*banner*/
+    .bannerContent .img{max-width: 80%;}    
+    .bannerWrapper .swiper-pagination{right:15px!important;}  
+    .bannerContent p{padding: 0 25px;}  
+    .bannerContent h1 { margin-bottom: 15px; }
+    .bannerSlide{height:650px;}
+
+    /* Home Gallery */
+    .homeGalleryGrid{grid-template-columns:1fr}
+    .galleryItem {aspect-ratio:auto;height:300px}
+    .galleryContent h3{font-size: 40px;}    
+
+}
+
+@media only screen and (max-width: 479px) {
+
+    /*header*/
+    .sidebarHeader{padding: 20px 20px 5px;}
+    .sidebarNavList a{font-size: 16px;}
+    .sidebarNavList li{margin-bottom: 0;}
+
+
+    /*banner*/
+    .bannerContent p{font-size: 16px;}
+
+}
+
+@media only screen and (max-width: 320px) {
+}
