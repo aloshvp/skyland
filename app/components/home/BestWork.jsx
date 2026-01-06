@@ -26,7 +26,7 @@ const BestWork = () => {
                         el: '.swiper-pagination-custom',
                         clickable: true,
                     }}
-                    onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
+                    onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
                     className="bestWorkMainSlider"
                     slidesPerView={1}
                     loop={true}
@@ -50,8 +50,8 @@ const BestWork = () => {
                 <div className="bestWorkOverlay">
                     <div className="container h-100">
                         <div className="bestWorkHeader">
-                            <h2 className="sectionTitle">Our Best Work</h2>
-                            <div className="bestWorkControls">
+                            <h2 className="sectionTitle" data-aos="fade-up" data-aos-duration="1000"><em>View Some of Our</em> Best Work</h2>
+                            <div className="bestWorkControls" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                                 <div className="swiper-button-prev-custom custom-nav-btn">
                                     <Image src="/images/common/prev-arrow.svg" alt="Previous" width={24} height={24} />
                                 </div>
@@ -63,13 +63,12 @@ const BestWork = () => {
                         </div>
 
                         <div className="bestWorkFooterExternal">
-                            <div className="activeSlideInfo">
+                            <div className="activeSlideInfo" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                                 <h3>{bestWorkSlides[activeIndex]?.title}</h3>
-                                <span className="categoryBadge">{bestWorkSlides[activeIndex]?.category}</span>
                                 <p>{bestWorkSlides[activeIndex]?.description}</p>
                             </div>
 
-                            <div className="thumbsSliderWrap">
+                            <div className="thumbsSliderWrap" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                                 <Swiper
                                     onSwiper={setThumbsSwiper}
                                     modules={[Thumbs]}
@@ -78,9 +77,9 @@ const BestWork = () => {
                                     spaceBetween={10}
                                     className="bestWorkThumbsSlider"
                                 >
-                                    {bestWorkSlides.map((slide) => (
+                                    {bestWorkSlides.map((slide, index) => (
                                         <SwiperSlide key={slide.id}>
-                                            <div className={`thumbItem ${activeIndex === slide.id - 1 ? 'active-thumb' : ''}`}>
+                                            <div className={`thumbItem ${activeIndex === index ? 'active-thumb' : ''}`}>
                                                 <Image
                                                     src={slide.image}
                                                     alt={slide.title}

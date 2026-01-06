@@ -33,36 +33,31 @@ export const bestWorkSlides = [
     {
         id: 1,
         image: '/images/home/Banerslider1.png',
-        title: 'Modern Architecture',
-        category: 'Residential',
-        description: 'A stunning modern residential project with sustainable features.'
+        title: 'Enhance Clarity and Focus',
+        description: 'A stunning large-scale window installation featuring a wood mulliontransom system and double-glazed windows for soundproofing.'
     },
     {
         id: 2,
         image: '/images/home/Banerslider2.png',
-        title: 'Urban Office Space',
-        category: 'Commercial',
-        description: 'State-of-the-art office complex designing for productivity.'
+        title: 'Enhance Clarity and Focus',
+        description: 'A stunning large-scale window installation featuring a wood mulliontransom system and double-glazed windows for soundproofing.'
     },
     {
         id: 3,
         image: '/images/home/Banerslider1.png',
-        title: 'Green Villas',
-        category: 'Residential',
-        description: 'Eco-friendly villas nestled in nature.'
+        title: 'Enhance Clarity and Focus',
+        description: 'A stunning large-scale window installation featuring a wood mulliontransom system and double-glazed windows for soundproofing.'
     },
     {
         id: 4,
         image: '/images/home/Banerslider2.png',
-        title: 'Tech Hub',
-        category: 'Commercial',
-        description: 'Innovative technology park with modern amenities.'
+        title: 'Enhance Clarity and Focus',
+        description: 'A stunning large-scale window installation featuring a wood mulliontransom system and double-glazed windows for soundproofing.'
     },
     {
         id: 5,
         image: '/images/home/Banerslider1.png',
-        title: 'Luxury Apartments',
-        category: 'Residential',
-        description: 'High-end apartments offering premium lifestyle.'
+        title: 'Enhance Clarity and Focus',
+        description: 'A stunning large-scale window installation featuring a wood mulliontransom system and double-glazed windows for soundproofing.'
     }
 ]
