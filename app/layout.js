@@ -4,6 +4,7 @@ import "@styles/mainbundle.scss";
 import "@styles/stylesheet.css";
 import AOSInit from "@common/AOSInit";
 import Header from "@common/Header";
+import Footer from "@common/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         <AOSInit />
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
