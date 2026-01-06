@@ -1,18 +1,18 @@
 /*Header*/
-.headerWrap { z-index: 1000; will-change: padding, background, box-shadow; background: linear-gradient(#000, #0000); justify-content: space-between; align-items: center; gap: 25px; width: 100%; padding: 20px 100px; transition: all .6s cubic-bezier(.25, .8, .25, 1); display: flex; position: fixed; top: 0; left: 0; }
-.headerWrap.scrolled{backdrop-filter:blur(2px);}
+.headerWrap { z-index: 1000; will-change: padding, background, box-shadow; background: linear-gradient(#000, #0000); justify-content: space-between; align-items: center; gap: 25px; width: 100%; padding: 20px 100px; transition: padding 0.5s ease, background-color 0.5s ease; display: flex; position: fixed; top: 0; left: 0; }
+.headerWrap.fix{background-color: #000; backdrop-filter:blur(2px); padding: 10px 100px;}
 .headerWrap > .container{width:100%}
 .headerSec{display:flex;justify-content:space-between;padding: 35px 0 0;height: 135px;}
-.headerWrap.scrolled .headerSec{padding: 30px 0 0;height: 100px;}
-.navLinksList{display:flex;gap:40px;transition:gap .3s ease;height: 100px;padding: 0;margin: 0;align-items: center;}
-.headerWrap.scrolled .headerNavLinks .navLinksList{gap:30px;height: 70px;}
+.headerWrap.fix .headerSec{padding: 30px 0 0;height: 100px;}
+.navLinksList{display:flex;gap:40px;transition:all 0.5s ease;height: 100px;padding: 0;margin: 0;align-items: center;}
+.headerWrap.fix .navLinksList{gap:30px;height: 70px;}
 .navLinksList > li{display: block;}
 .navLinksList > li > a{font-size: 20px;line-height: 1em;color: #fff;}
 .homeLink{position: relative;}
 .homeLink::before{content:"";position: absolute;top: -15px;left: 50%;transform: translateX(-50%);background-image: url(/images/common/home-icon.png);background-repeat: no-repeat;background-position: center center;width: 20px;height: 20px;}
 .headerLogoSec{position: relative;}
-.headerLogo > img{max-width: 120px;position: relative;top: -25px;transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);}
-.headerWrap.scrolled .headerLogo > img{transform:scale(0.75);top:-40px}
+.headerLogoSec > a > img{position: relative;top: 0;transition: all 0.5s ease;}
+.headerWrap.fix .headerLogoSec > a > img{transform:scale(0.8);}
 .hamburgerSec{display:flex;align-items: center;gap:20px;}
 .hamburger{display:flex;flex-direction:column;gap:9px;cursor:pointer;height: max-content;align-items: flex-end;}
 .hamburger span{display:block;width:23px;height:2px;background:#fff;transition:all .3s ease}
@@ -41,7 +41,7 @@
 .sidebarNavList a:hover,.sidebarNavList .homeLink{color:#000}
 
 /*WhatsApp Button*/
-.whatsappBtnWrap{position: fixed;bottom: 60px;right: 60px;z-index: 1000;border-radius: 50%;padding: 8px;background: rgba(191, 191, 191, 0.2); }
+.whatsappBtnWrap{position: fixed;bottom: 80px;right: 80px;z-index: 1000;border-radius: 50%;padding: 8px;background: rgba(191, 191, 191, 0.2); }
 .whatsappBtn{display: inline-block;width: 38px;height: 38px;display: flex;align-items: center;justify-content: center;transition: all 0.3s ease;}
 .whatsappBtn:hover{transform: scale(1.1);}
 .whatsappBtn img{width: 38px;height: 38px;}
@@ -153,6 +153,7 @@
 /*client review*/
 .clientReviewWrap{background:#EFEFEF;padding: 135px 0;}
 .clientReviewContent{display:flex;gap:80px;}
+.clientReviewSliderItem{display: flex;align-items: center;border-radius: 260px 120px 0 0;background:#dad9d9;}
 
 /*footer*/
 .footerWrap{background:#000;padding: 135px 0;}

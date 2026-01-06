@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const ClientReview = () => {
     return (
@@ -15,7 +16,9 @@ const ClientReview = () => {
                     </div>
                     <div className="clientReviewSlider">
                         <div className="clientReviewSliderItem">
-                            <div className="clientReviewSliderItemImg"></div>
+                            <div className="clientReviewSliderItemImg">
+                                <Image src="/images/home/family-home.png" alt="clientReviewSlider1" width={565} height={507} />
+                            </div>
                             <div className="clientReviewSliderItemContent">
                                 <p>“Excellent workmanship and great communication throughout the project. Skyland’s team handled everything smoothly — we couldn’t be happier with the result.”</p>
                                 <span>— Arun Menon, Kochi</span>
