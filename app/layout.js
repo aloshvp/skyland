@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import "@styles/mainbundle.scss";
 import "@styles/stylesheet.css";
+import "@styles/test.css";
 import AOSInit from "@common/AOSInit";
 import Header from "@common/Header";
 import Footer from "@common/Footer";
