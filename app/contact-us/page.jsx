@@ -7,7 +7,7 @@ const Contact = () => {
                 <div className="subBannerImgWrap">
                     <div className="banner-image">
                         <img
-                            src="/images/banner-contact.avif"
+                            src="/images/static/contact-us-bg.png"
                             alt="Contact Us"
                         />
                         <div className="banner-title">
@@ -25,7 +25,9 @@ const Contact = () => {
                                         data-aos="fade-up"
                                         data-aos-duration="1500"
                                     >
-                                        Get in touch with us for any inquiries, feedback, or support
+                                        Get in touch with us for any
+                                        <em></em>
+                                        inquiries, feedback, or support
                                     </div>
                                 </div>
                             </div>
@@ -33,14 +35,6 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
-
-            {/* Pattern */}
-            <div className="pattern-bg-top">
-                <img
-                    src="/images/pattern-bg-top.png"
-                    alt="services"
-                />
-            </div>
 
             {/* Contact Section */}
             <section className="contact-sec">
@@ -76,9 +70,9 @@ const Contact = () => {
                                     <div className="txtbox">
                                         <div className="title">Address</div>
                                         <div className="txt">
-                                            Idea Cube Building Contracting LLC
-                                            <br />
-                                            Dubai, United Arab Emirates
+                                            2nd Floor, KMA Tower, Skyland Constructions,<br />
+                                            near Sakthan stand, Kannamkulangara,<br />
+                                            Thrissur, Kerala 680007
                                         </div>
                                     </div>
                                 </div>
@@ -94,7 +88,7 @@ const Contact = () => {
                                     <div className="txtbox">
                                         <div className="title">Phone</div>
                                         <div className="txt">
-                                            <a href="tel:00971527288944">+971 52 728 8944</a>
+                                            <a href="tel:917736002040">+91 77360 02040</a>
                                         </div>
                                     </div>
                                 </div>
@@ -110,8 +104,8 @@ const Contact = () => {
                                     <div className="txtbox">
                                         <div className="title">Email</div>
                                         <div className="txt">
-                                            <a href="mailto:hello@ideacube.co">
-                                                hello@ideacube.co
+                                            <a href="mailto:skylandconstruction@gmail.com">
+                                                skylandconstruction@gmail.com
                                             </a>
                                         </div>
                                     </div>
@@ -184,28 +178,6 @@ const Contact = () => {
                                                         id="message"
                                                         rows="1"
                                                     />
-                                                </div>
-                                            </div>
-
-                                            <div className="col-md-6">
-                                                <div className="FormItem">
-                                                    <div className="CaptchaBox">
-                                                        <div className="CaptchaText">
-                                                            <span>4aB3De</span>
-                                                        </div>
-
-                                                        <div className="CaptchaInput">
-                                                            <input
-                                                                type="text"
-                                                                className="form-control"
-                                                                placeholder="Enter Captcha"
-                                                            />
-                                                        </div>
-
-                                                        <a className="CaptchaReload" href="#">
-                                                            <span className="icon-arrow-rotate-right iconstyle" />
-                                                        </a>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

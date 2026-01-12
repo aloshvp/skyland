@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="footerContent">
                     <div className="footerLogoSec">
                         <div className="footerLogoImg">
-                            <Image src="/images/common/skyland_logo.png" alt="logo" width={100} height={100} />
+                            <Image src="/images/common/skyland_logo.png" alt="logo" width={261} height={58} />
                         </div>
                         <div className="socialMediaLinks">
                             <p>Connect with us</p>
