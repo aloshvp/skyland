@@ -5,21 +5,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { galleryImages } from "@utils/staticData";
 
-const galleryImages = [
-    { src: "/images/gallery-1.avif", category: "Residential Buildings" },
-    { src: "/images/gallery-2.avif", category: "Commercial Buildings" },
-    { src: "/images/gallery-3.avif", category: "Interior Design" },
-    { src: "/images/gallery-4.avif", category: "Residential Buildings" },
-    { src: "/images/gallery-5.avif", category: "Commercial Buildings" },
-    { src: "/images/gallery-6.avif", category: "Interior Design" },
-    { src: "/images/gallery-7.avif", category: "Residential Buildings" },
-    { src: "/images/gallery-8.avif", category: "Commercial Buildings" },
-];
+
 
 const categories = ["Residential Buildings", "Commercial Buildings", "Interior Design"];
 
@@ -119,8 +110,8 @@ export default function Gallery() {
                                         <div
                                             className="glr-Box"
                                             data-aos="fade-up"
-                                            data-aos-duration="1200"
-                                            data-aos-delay={index * 100}
+                                            data-aos-duration="600"
+                                            data-aos-delay={index * 50}
                                             onClick={() => openGallery(index)}
                                             style={{ cursor: "pointer" }}
                                         >
