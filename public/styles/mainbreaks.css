@@ -64,6 +64,9 @@
     /*header*/
     .whatsappBtnWrap{right: 25px;}
     .headerWrap,.headerWrap.fix{padding: 10px 15px;}
+    .talkWithUsBtn {padding: 12px 28px; font-size: 16px;}
+    .headerLogoSec > a > img{max-width: 150px !important;}
+
 
     /*banner*/
     .bannerContent h1{margin-bottom: 25px;}

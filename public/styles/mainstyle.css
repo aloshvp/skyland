@@ -167,7 +167,7 @@
 .footerLinksList{padding: 0;margin: 0;}
 .footerLinksList > li > a{color: var(--grey);font-family: neue_haas_grotesk_disp65Md;font-size: 22px;line-height: 1em;margin-bottom: 15px;display: block;}
 
-.footerBottomSec{display: flex;justify-content: space-between;border-top: 1px solid var(--grey);border-bottom: 1px solid var(--grey);padding: 20px 0;margin-top: 60px;}
+.footerBottomSec{display: flex;justify-content: space-between;border-top: 1px solid #707070;border-bottom: 1px solid #707070;padding: 20px 0;margin-top: 60px;}
 
 /* Best Work Section */
 .bestWorkWrap{overflow:hidden;position:relative}
