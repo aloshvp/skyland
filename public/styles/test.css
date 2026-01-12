@@ -1,0 +1,81 @@
+/*style*/
+/*project details*/
+.staticNoBannerWrap{padding-top: 140px;}
+.projectHeader>span {font-size: 18px;font-weight: 700;color: #5a5a5a;text-transform: uppercase;display: block;margin-bottom: 10px;}
+.projectHeader>h1{font-family: 'neue_haas_grotesk_display65Md';font-size: 35px;line-height: 42px;color: #5a5a5a;margin-bottom: 30px;}
+.projectHeader>h1>i{font-style: normal;display: block;}
+.projectDescription{margin-bottom: 75px;}
+.projectDescription p {margin-bottom: 20px;font-size: 18px;line-height: 26px;color: #555;}
+.galleryTitle {font-size: 24px;font-weight: 700;color: #333;margin: 40px 0 20px 0;text-transform: lowercase;}
+.projectGallery{margin-bottom: 80px;}
+.projectDetGrid {display: grid;grid-template-columns: repeat(2, 1fr);gap: 30px;}
+.projectGridItem img {width: 100%;height: auto;display: block;border-radius: 12px;box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
+
+
+/*breaks*/
+@media screen and (min-width: 1800px) {
+
+
+
+}
+
+@media screen and (min-width: 1600px) {
+
+/*project details*/
+.projectDetGrid {gap:50px;}
+
+}
+
+@media screen and (min-width: 1440px) {
+ 
+}
+
+@media screen and (min-width: 1300px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+  
+
+}
+
+@media screen and (max-width: 1024px) {
+
+
+}
+
+
+@media only screen and (max-width: 991px) {
+
+/*project details*/
+.staticNoBannerWrap{padding-top: 80px;}
+.projectDescription{margin-bottom: 40px;}
+.projectGallery{margin-bottom: 40px;}
+.projectHeader > h1{font-size: 30px;line-height: 35px;margin-bottom: 25px;}
+.projectDetGrid{gap:20px}
+
+}
+
+@media only screen and (max-width: 767px) {  
+
+/*project details*/
+.projectHeader > h1{font-size: 25px;line-height: 30px;margin-bottom: 15px;}
+.projectDescription p{font-size: 16px;line-height: 25px;margin-bottom: 10px;}
+
+
+
+}
+
+@media only screen and (max-width: 479px) {
+
+/*project details*/
+.projectHeader > span{font-size: 16px;line-height: 28px;margin-bottom: 5px;}
+.projectDetGrid {grid-template-columns: repeat(1, 1fr);}
+.projectDescription p{font-size: 15px;line-height: 25px;margin-bottom: 5px;}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
