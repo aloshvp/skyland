@@ -1,3 +1,13 @@
+export const NAV_LINKS = [
+    { href: "/", label: "Home" },
+    { href: "/about-us", label: "About us" },
+    { href: "/services", label: "Services" },
+    { href: "/pt-slab", label: "PT Slab" },
+    { href: "/projects", label: "Projects" },
+    { href: "/career", label: "Career" },
+    { href: "/contact-us", label: "Contact Us" },
+];
+
 export const bannerSlides = [
     {
         id: 1,

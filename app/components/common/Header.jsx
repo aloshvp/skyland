@@ -1,12 +1,16 @@
 "use client"
 import Image from 'next/image'
+import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
 import useWindowSize from './useWindowSize'
+import { NAV_LINKS } from '@utils/homeData'
+
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
     const { width } = useWindowSize();
+    const pathname = usePathname();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -40,41 +44,18 @@ const Header = () => {
                 {(width === undefined || width > 991) && (
                     <div className="navLinksListSec">
                         <ul className='navLinksList'>
-                            <li>
-                                <Link href="/" className="navLink">
-                                    Home
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="" className="navLink" scroll={false}>
-                                    About us
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="" className="navLink" scroll={false}>
-                                    Services
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="" className="navLink" scroll={false}>
-                                    PT Slab
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="" className="navLink" scroll={false}>
-                                    Projects
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="" className="navLink" scroll={false}>
-                                    Career
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="" className="navLink" scroll={false}>
-                                    Contact Us
-                                </Link>
-                            </li>
+                            {NAV_LINKS.map((link) => (
+                                <li key={link.href}>
+                                    <Link
+                                        href={link.href}
+                                        className={`navLink ${pathname === link.href ? 'active' : ''
+                                            }`}
+                                        scroll={false}
+                                    >
+                                        {link.label}
+                                    </Link>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                 )}

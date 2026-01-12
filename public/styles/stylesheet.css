@@ -5163,7 +5163,7 @@ header.sticky .top_Contact_Item .iconstyle {
 }
 
 
-
+.sub-banner-sec .mainTitle>em{display: block;}
 
 .sub-banner-sec .subCaption {
 	position: relative;
@@ -5179,7 +5179,7 @@ header.sticky .top_Contact_Item .iconstyle {
 
 
 
-@media (max-width: 1399.98px) {
+@media (min-width: 1400px) {
 
 	.sub-banner-caption {
 		padding: 120px 0 0 0;
@@ -8147,3 +8147,56 @@ screen and (max-height: 300px) {
 	right: 0;
 	padding-top: 0;
 }
+/* Projects Gallery Filters */
+.filter-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.filter-btn.active {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* Category Specific Filter Colors */
+.filter-btn-residential-buildings {
+    border: 1px solid var(--greenBlue);
+}
+
+.filter-btn-commercial-buildings {
+    border: 1px solid var(--blue);
+}
+
+.filter-btn-interior-design {
+    border: 1px solid var(--yellow);
+}
+
+/* Ensure active state keeps the color or overrides it if needed */
+.filter-btn.active.filter-btn-residential-buildings {
+    background-color: var(--greenBlue);
+    border-color: var(--greenBlue);
+}
+
+.filter-btn.active.filter-btn-commercial-buildings {
+    background-color: var(--blue);
+    border-color: var(--blue);
+}
+
+.filter-btn.active.filter-btn-interior-design {
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+}
+

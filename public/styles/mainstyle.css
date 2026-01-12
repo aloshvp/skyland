@@ -8,6 +8,7 @@
 .headerWrap.fix .navLinksList{gap:30px;height: 70px;}
 .navLinksList > li{display: block;}
 .navLinksList > li > a{font-size: 20px;line-height: 1em;color: #fff;}
+.navLinksList > li > a.active{color: var(--yellow);}
 .homeLink{position: relative;}
 .homeLink::before{content:"";position: absolute;top: -15px;left: 50%;transform: translateX(-50%);background-image: url(/images/common/home-icon.png);background-repeat: no-repeat;background-position: center center;width: 20px;height: 20px;}
 .headerLogoSec{position: relative;}
