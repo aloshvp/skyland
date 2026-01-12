@@ -201,7 +201,7 @@ const Contact = () => {
             <section className="location-sec">
                 <div className="location">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d462561.65915368934!2d55.227488!3d25.076022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1746166246746!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5363.344110732892!2d76.21393991180312!3d10.508296389581346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ee3e36cf3a59%3A0x73b949ceb96aecc1!2sSkyland%20Constructions!5e1!3m2!1sen!2sin!4v1768238468100!5m2!1sen!2sin"
                         width="100%"
                         height="100%"
                         style={{ border: 0 }}
