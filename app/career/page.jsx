@@ -35,12 +35,12 @@ const Careers = () => {
             </section>
 
             {/* Pattern */}
-            <div className="pattern-bg-top">
+            {/* <div className="pattern-bg-top">
                 <img
                     src="/images/pattern-bg-top.png"
                     alt="services"
                 />
-            </div>
+            </div> */}
 
             {/* Careers Section */}
             <section className="CareersSec">
@@ -139,7 +139,7 @@ const Careers = () => {
                                     </div>
                                 </div>
 
-                                <div className="col-md-6">
+                                {/* <div className="col-md-6">
                                     <div className="FormItem">
                                         <div className="CaptchaBox">
                                             <div className="CaptchaText">
@@ -159,7 +159,7 @@ const Careers = () => {
                                             </a>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
 
                             <button
