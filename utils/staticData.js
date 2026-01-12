@@ -1,10 +1,10 @@
 export const galleryImages = [
-    { src: "/images/gallery-1.avif", category: "Residential Buildings" },
-    { src: "/images/gallery-2.avif", category: "Commercial Buildings" },
-    { src: "/images/gallery-3.avif", category: "Interior Design" },
-    { src: "/images/gallery-4.avif", category: "Residential Buildings" },
-    { src: "/images/gallery-5.avif", category: "Commercial Buildings" },
-    { src: "/images/gallery-6.avif", category: "Interior Design" },
-    { src: "/images/gallery-7.avif", category: "Residential Buildings" },
-    { src: "/images/gallery-8.avif", category: "Commercial Buildings" },
+    { id: 1, src: "/images/gallery-1.avif", category: "Residential Buildings" },
+    { id: 2, src: "/images/gallery-2.avif", category: "Commercial Buildings" },
+    { id: 3, src: "/images/gallery-3.avif", category: "Interior Design" },
+    { id: 4, src: "/images/gallery-4.avif", category: "Residential Buildings" },
+    { id: 5, src: "/images/gallery-5.avif", category: "Commercial Buildings" },
+    { id: 6, src: "/images/gallery-6.avif", category: "Interior Design" },
+    { id: 7, src: "/images/gallery-7.avif", category: "Residential Buildings" },
+    { id: 8, src: "/images/gallery-8.avif", category: "Commercial Buildings" },
 ];

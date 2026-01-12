@@ -105,13 +105,14 @@ export default function Gallery() {
                                 filteredImages.map((img, index) => (
                                     <div
                                         className="col-xl-3 col-lg-4 col-sm-6"
-                                        key={`${activeCategory}-${index}`}
+                                        key={`${activeCategory}-${img.id}`}
                                     >
                                         <div
                                             className="glr-Box"
                                             data-aos="fade-up"
                                             data-aos-duration="600"
                                             data-aos-delay={index * 50}
+                                            data-aos-offset="0"
                                             onClick={() => openGallery(index)}
                                             style={{ cursor: "pointer" }}
                                         >
@@ -154,8 +155,8 @@ export default function Gallery() {
                         initialSlide={activeIndex}
                         className="gallerySwiper"
                     >
-                        {filteredImages.map((img, index) => (
-                            <SwiperSlide key={index}>
+                        {filteredImages.map((img) => (
+                            <SwiperSlide key={img.id}>
                                 <img
                                     src={img.src}
                                     alt={`Gallery ${activeCategory} ${index + 1}`}
