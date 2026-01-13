@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // 1. Next.js: debug server-side (Node.js Process)
+        {
+            "name": "Next.js: debug server-side",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "npm run dev", // Use your standard dev script
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        // 2. Next.js: debug client-side (Browser)
+        {
+            "name": "Next.js: debug client-side",
+            "type": "chrome", // or "msedge" if you prefer
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+        // 3. Next.js: debug full stack (The compound configuration)
+        {
+            "name": "Next.js: debug full stack",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "npm run dev",
+            "serverReadyAction": {
+                "action": "debugWithChrome", // or "debugWithEdge"
+                "pattern": "ready on", // This pattern is more reliable than complex regex
+                "uriFormat": "http://localhost:3000"
+            }
+        }
+    ],
+    "compounds": [
+        // This links the server and client configurations together
+        {
+            "name": "Next.js: debug full stack (Compound)",
+            "configurations": ["Next.js: debug server-side", "Next.js: debug client-side"],
+            "stopAll": true
+        }
+    ]
+}
