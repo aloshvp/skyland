@@ -4,15 +4,15 @@
 .headerWrap > .container{width:100%}
 .headerSec{display:flex;justify-content:space-between;padding: 35px 0 0;height: 135px;}
 .headerWrap.fix .headerSec{padding: 30px 0 0;height: 100px;}
-.navLinksList{display:flex;gap:40px;transition:all 0.5s ease;height: 100px;padding: 0;margin: 0;align-items: center;}
+.navLinksList{display:flex;gap:30px;transition:all 0.5s ease;height: 100px;padding: 0;margin: 0;align-items: center;}
 .headerWrap.fix .navLinksList{gap:30px;height: 70px;}
 .navLinksList > li{display: block;}
-.navLinksList > li > a{font-size: 20px;line-height: 1em;color: #fff;}
+.navLinksList > li > a{font-size: 18px;line-height: 1em;color: #fff;}
 .navLinksList > li > a.active{color: var(--yellow);}
 .homeLink{position: relative;}
 .homeLink::before{content:"";position: absolute;top: -15px;left: 50%;transform: translateX(-50%);background-image: url(/images/common/home-icon.png);background-repeat: no-repeat;background-position: center center;width: 20px;height: 20px;}
 .headerLogoSec{position: relative;}
-.headerLogoSec > a > img{position: relative;top: 0;transition: all 0.5s ease;}
+.headerLogoSec > a > img{position: relative;top: 0;transition: all 0.5s ease;max-width: 200px;}
 .headerWrap.fix .headerLogoSec > a > img{transform:scale(0.8);}
 .hamburgerSec{display:flex;align-items: center;gap:20px;}
 .hamburger{display:flex;flex-direction:column;gap:9px;cursor:pointer;height: max-content;align-items: flex-end;}
@@ -21,7 +21,7 @@
 .hamburger span.line2{width:20px;}
 .hamburger span.line3{width:16px;}
 .headerWrap.scrolled .hamburger span{width:23px}
-.talkWithUsBtn {background: linear-gradient(252deg, rgba(71, 190, 177, 1) 0%, rgba(0, 149, 211, 1) 100%);border-radius: 30px; align-items: center; gap: 15px; padding: 16px 32px; font-size: 18px; transition: background .3s ease-in-out; display  : inline-flex;color: #fff;font-family: neue_haas_grotesk_display65Md; }
+.talkWithUsBtn {background: linear-gradient(252deg, rgba(71, 190, 177, 1) 0%, rgba(0, 149, 211, 1) 100%);border-radius: 30px; align-items: center; gap: 15px; padding: 16px 32px; font-size: 16px; transition: background .3s ease-in-out; display  : inline-flex;color: #fff;font-family: neue_haas_grotesk_display65Md;line-height: 1em; }
 .talkWithUsBtn:hover {background: linear-gradient(252deg, rgba(0, 149, 211, 1) 0%, rgba(71, 190, 177, 1) 100%);color: #fff; }
 
 /* Mobile Sidebar */

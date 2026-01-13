@@ -6,6 +6,7 @@
 
     /*Header*/
     .navLinksList{gap:90px;}
+    .headerLogoSec > a > img{max-width: 100%;}
 
 }
 
@@ -15,6 +16,10 @@
     .headerWrap.scrolled .headerNavLinks .navLinksList{gap:50px;}
     .headerWrap { padding: 20px 100px;}
     .headerWrap.fix{padding: 10px 100px;}
+    .talkWithUsBtn{padding: 16px 32px;font-size: 18px;}
+    .navLinksList{gap:40px;}
+    .navLinksList > li > a{font-size: 20px;}
+    
 
     
 }
@@ -26,12 +31,14 @@
 @media screen and (max-width: 1200px) {
 
     /*header*/
+    .headerWrap{gap: 20px;}
     .navLinksList > li > a{font-size: 18px;}
     .talkWithUsSec span{font-size: 16px;}
     .headerLogo > img{max-width: 100px;}
     .headerWrap.scrolled .headerLogo > img {top: -35px;}
     .headerWrap.fix{padding: 10px 50px;}
-    .headerWrap.fix .headerLogoSec > a > img{transform: none;max-width: 180px;}
+    .headerWrap.fix .headerLogoSec > a > img{transform: none;max-width: 145px;}
+    .headerWrap.fix .navLinksList{gap:20px}
 
 
     /* Why Choose Us Home */    
@@ -64,7 +71,7 @@
     /*header*/
     .whatsappBtnWrap{right: 25px;}
     .headerWrap,.headerWrap.fix{padding: 10px 15px;}
-    .talkWithUsBtn {padding: 12px 28px; font-size: 16px;}
+    .talkWithUsBtn {padding: 10px 20px; font-size: 15px;}
     .headerLogoSec > a > img{max-width: 150px !important;}
 
 
@@ -100,6 +107,8 @@
     .talkWithUsSec{align-items: flex-start;}
     .sidebarContent{width: 350px;max-width: 85vw;}
     .headerWrap.scrolled .headerLogo > img { left: 60px;}
+    .headerLogoSec > a > img {max-width: 120px !important;}
+    .hamburgerSec{gap: 15px;}
 
     /*banner*/
     .bannerContent .img{max-width: 80%;}    
@@ -129,4 +138,8 @@
 }
 
 @media only screen and (max-width: 320px) {
+
+    /*header*/
+     .talkWithUsBtn {padding: 8px 16px; font-size: 14px;}
+    .headerLogoSec > a > img{max-width: 100px !important;}
 }
