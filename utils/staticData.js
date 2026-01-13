@@ -8,3 +8,24 @@ export const galleryImages = [
     { id: 7, src: "/images/gallery-7.avif", category: "Residential Buildings" },
     { id: 8, src: "/images/gallery-8.avif", category: "Commercial Buildings" },
 ];
+
+export const servicesData = [
+    {
+        number: "01",
+        name: "Commercial Buildings",
+        link: "",
+        bgImage: "/images/static/Commercial-Buildings.png",
+    },
+    {
+        number: "02",
+        name: "Residential Buildings",
+        link: "",
+        bgImage: "/images/static/Residential-Buildings.png",
+    },
+    {
+        number: "03",
+        name: "Interior Design",
+        link: "",
+        bgImage: "/images/static/Interior-Design.png",
+    },
+];

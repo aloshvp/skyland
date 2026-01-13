@@ -8205,3 +8205,27 @@ screen and (max-height: 300px) {
 	.filter-btn{padding: 8px 10px;}
 	.filter-buttons{margin-bottom: 30px;gap: 10px;}
 }
+
+.serviceMainItem{position:relative;width:100%;display:flex;flex-direction:column;position:sticky;top:0px}
+.serviceMainItemBg{position:relative;width:100%;height:100vh}
+.serviceMainItemBg.serviceMainItemBgLast{height:calc(100vh)}
+.serviceMainItemImg{object-fit:cover;width:100%;height:100%}
+.serviceMainItemContent{position:absolute;top:140px;left:100px;color:#fff;z-index:2}
+.serviceMainItemNumber{font-size:26px;line-height:1em;color:#ABABAB}
+.serviceMainItemName{font-size:50px;margin:5px 0 15px;font-family: 'neue_haas_grotesk_display65Md';}
+.serviceMainItemContent>a{font-size:18px;line-height:1em;position:relative;display:flex;transition:all .5s ease;align-items:center;font-family: 'neue_haas_grotesk_display65Md';color: #fff;}
+.serviceMainItemContent>a .arrow{display:block;width:16px;height:16px;margin-left:10px;background-image:url(/images/static/right-arrow.svg);background-size:contain;background-repeat:no-repeat;background-position:center;transition:transform .3s ease}
+.serviceMainItemContent>a:hover .arrow{transform:translateX(3px)}
+
+@media only screen and (max-width: 991px) {
+.serviceMainItemContent{left:25px;top:100px}
+.serviceMainItemName{font-size:40px;margin:5px 0 12px}
+}
+
+@media only screen and (max-width: 767px) {
+.serviceMainItemName{margin:5px 0 10px;font-size:28px}
+.serviceMainItemContent{top:80px;left:20px}
+.serviceMainItemContent>a{font-size:16px}
+}
+
+

@@ -7,15 +7,19 @@ import useWindowSize from './useWindowSize'
 import { NAV_LINKS } from '@utils/homeData'
 
 
+const ALWAYS_SCROLLED_PATHS = ['/service'];
+
 const Header = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const { width } = useWindowSize();
     const pathname = usePathname();
 
+    const isAlwaysScrolled = ALWAYS_SCROLLED_PATHS.some(path => pathname?.startsWith(path));
+
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 50 || (width && width < 1200)) {
+            if (window.scrollY > 50 || (width && width < 1200) || isAlwaysScrolled) {
                 setScrolled(true);
             } else {
                 setScrolled(false);
@@ -25,7 +29,7 @@ const Header = () => {
         handleScroll();
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
-    }, [width]);
+    }, [width, isAlwaysScrolled]);
 
     useEffect(() => {
         if (isSidebarOpen) {
@@ -63,7 +67,7 @@ const Header = () => {
                                         href={link.href}
                                         className={`navLink ${pathname === link.href ? 'active' : ''
                                             }`}
-                                        scroll={false}
+                                    // scroll={false}
                                     >
                                         {link.label}
                                     </Link>
