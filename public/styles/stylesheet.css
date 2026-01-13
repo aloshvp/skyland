@@ -8217,3 +8217,19 @@ screen and (max-height: 300px) {
 .serviceMainItemContent>a{font-size:18px;line-height:1em;position:relative;display:flex;transition:all .5s ease;align-items:center;font-family: 'neue_haas_grotesk_display65Md';color: #fff;}
 .serviceMainItemContent>a .arrow{display:block;width:16px;height:16px;margin-left:10px;background-image:url(/images/static/right-arrow.svg);background-size:contain;background-repeat:no-repeat;background-position:center;transition:transform .3s ease}
 .serviceMainItemContent>a:hover .arrow{transform:translateX(3px)}
+
+@media only screen and (max-width: 991px) {
+.serviceMainItem{top:75px}
+.serviceMainItemBg{height:calc(100vh - 75px)}
+.serviceMainItemContent{left:25px;top:60px}
+.serviceMainItemName{font-size:40px;margin:5px 0 12px}
+}
+
+@media only screen and (max-width: 767px) {
+.serviceMainItem{top:65px}
+.serviceMainItemBg{height:calc(100vh - 65px)}
+.serviceMainItemName{margin:5px 0 10px;font-size:28px}
+.serviceMainItemContent{top:40px;left:20px}
+.serviceMainItemContent>a{font-size:16px}
+}
+
