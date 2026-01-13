@@ -67,7 +67,7 @@ const Header = () => {
                                         href={link.href}
                                         className={`navLink ${pathname === link.href ? 'active' : ''
                                             }`}
-                                        scroll={false}
+                                    // scroll={false}
                                     >
                                         {link.label}
                                     </Link>
