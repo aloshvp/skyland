@@ -37,17 +37,17 @@ const Footer = () => {
                             <span>Navigation</span>
                             <ul className='footerLinksList'>
                                 <li><Link href="/">Home</Link></li>
-                                <li><Link href="" scroll={false}>About us </Link></li>
-                                <li><Link href="" scroll={false}>Services</Link></li>
-                                <li><Link href="" scroll={false}>Projects</Link></li>
-                                <li><Link href="" scroll={false}>Career</Link></li>
-                                <li><Link href="" scroll={false}>Contact Us</Link></li>
+                                <li><Link href="/about-us">About us </Link></li>
+                                <li><Link href="/services">Services</Link></li>
+                                <li><Link href="/projects">Projects</Link></li>
+                                <li><Link href="/career">Career</Link></li>
+                                <li><Link href="/contact-us">Contact Us</Link></li>
                             </ul>
                         </div>
                         <div className='footerLinksCol'>
                             <span>Services</span>
                             <ul className='footerLinksList'>
-                                <li><Link href="" scroll={false}>Commercial Buildings</Link></li>
+                                <li><Link href="/commercial-buildings">Commercial Buildings</Link></li>
                                 <li><Link href="" scroll={false}>Residential Buildings</Link></li>
                                 <li><Link href="" scroll={false}>Interior Design</Link></li>
                             </ul>

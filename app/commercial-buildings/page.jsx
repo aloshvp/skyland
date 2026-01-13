@@ -1,5 +1,6 @@
 "use client";
 
+import HomeForm from "@home/HomeForm";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,29 +12,29 @@ const CommercialBuildings = () => {
                 <div className="subBannerImgWrap">
                     <div className="banner-image">
                         <Image
-                            src="/images/banner-commercial-and-residential-construction.avif"
+                            src="/images/static/Commercial-Buildings-bg.png"
                             alt="Commercial & Residential Construction"
                             width={1920}
-                            height={600}
+                            height={500}
                             priority
+                            className="commercialbuildingsbg"
                         />
                         <div className="banner-title">
                             <div className="containerWrapper">
                                 <div className="sub-banner-caption WiderCap">
                                     <div
-                                        className="subCaption"
-                                        data-aos="fade-up"
-                                        data-aos-duration="1500"
-                                    >
-                                        Commercial & Residential Construction
-                                    </div>
-                                    <div
                                         className="mainTitle"
                                         data-aos="fade-up"
                                         data-aos-duration="1500"
                                     >
-                                        From towers to villas, we deliver quality, innovation, and
-                                        expertise in every project
+                                        Commercial Buildings
+                                    </div>
+                                    <div
+                                        className="subCaption"
+                                        data-aos="fade-up"
+                                        data-aos-duration="1500"
+                                    >
+                                        Home &gt; Commercial Buildings
                                     </div>
                                 </div>
                             </div>
@@ -41,15 +42,6 @@ const CommercialBuildings = () => {
                     </div>
                 </div>
             </section>
-
-            <div className="pattern-bg-top">
-                <Image
-                    src="/images/pattern-bg-top.png"
-                    alt="services"
-                    width={1920}
-                    height={120}
-                />
-            </div>
 
             {/* Service Detail */}
             <section className="Service_Detail_Sec">
@@ -62,7 +54,7 @@ const CommercialBuildings = () => {
                                     data-aos="fade-up"
                                     data-aos-duration="1200"
                                 >
-                                    <h1>Commercial & Residential Construction</h1>
+                                    <h1>Commercial Construction</h1>
                                 </div>
                             </div>
 
@@ -70,15 +62,14 @@ const CommercialBuildings = () => {
                                 <div className="Service_Detail_ContentBox">
                                     <div className="Service_Detail_Desc">
                                         <p data-aos="fade-up" data-aos-duration="1200">
-                                            We specialize in delivering expertly designed and
-                                            structurally sound construction solutions for residential
-                                            villas, apartment complexes, and commercial buildings.
+                                            At SKYLAND, we specialize in crafting expertly designed and structurally reliable construction solutions for residential villas, apartment complexes, and commercial developments. Our work blends contemporary architecture with trusted engineering, delivering spaces that are visually striking, highly functional, and built to last.
                                         </p>
 
                                         <p data-aos="fade-up" data-aos-duration="1200">
-                                            From concept planning to final execution, every project is
-                                            tailored to meet the specific needs of our clients with
-                                            durability, safety, and long-term value.
+                                            From concept planning to final handover, every SKYLAND project is shaped around the unique needs of our clients. We ensure intelligent space utilization, premium materials, and modern construction methodologies to create environments that offer comfort, efficiency, and long-term value.
+                                        </p>
+                                        <p data-aos="fade-up" data-aos-duration="1200">
+                                            Whether it’s an elegant private villa or a multi-storey commercial structure, SKYLAND focuses on durability, safety, and quality craftsmanship, bringing your vision to life with precision and excellence.
                                         </p>
                                     </div>
 
@@ -102,8 +93,8 @@ const CommercialBuildings = () => {
                     <div className="Service_Detail_Img_BoxRow">
                         <div className="row gutters">
                             {[
-                                "commercial-and-residential-construction-1.avif",
                                 "commercial-and-residential-construction-2.avif",
+                                "commercial-and-residential-construction-1.avif",
                             ].map((img, i) => (
                                 <div className="col-md-6" key={i}>
                                     <div
@@ -124,6 +115,8 @@ const CommercialBuildings = () => {
                     </div>
                 </div>
             </section>
+
+            <HomeForm />
 
         </>
     );

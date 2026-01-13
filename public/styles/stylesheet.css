@@ -5058,6 +5058,8 @@ header.sticky .top_Contact_Item .iconstyle {
 
 .sub-banner-sec .banner-image img {
 	width: 100%;
+	max-height: 500px;
+	object-fit: cover;
 }
 
 
