@@ -8240,11 +8240,14 @@ screen and (max-height: 300px) {
 .ourCompanyContentSec > div{flex: 1;}
 
 
-.downloadBrochureWrap{padding: 80px 60px;}
+.downloadBrochureWrap{padding: 80px 60px;background: linear-gradient(360deg, #47beb1 0%, #0095d3 100%);}
 .downloadBrochureSec{display: flex;align-items: center;gap: 80px;justify-content: space-between;}
-.downloadBrochureContent{display: flex;gap: 20px;align-items: center;}
+.downloadBrochureContent{display: flex;gap: 20px;align-items: center;color: #fff;}
 .downloadBrochureContent >h2{}
 .downloadBrochureContent >h2>em{display: block;font-style: normal;}
+.downloadBrochureBtn > a{background: linear-gradient(252deg, #47beb1 0%, #0095d3 100%);padding:20px 70px;border-radius:30px;font-size:28px;line-height: 1em;transition:all .3s ease;height: 70px;color:#fff;font-family: neue_haas_grotesk_display65Md;border: 1px solid #fff;}
+.downloadBrochureBtn > a:hover{background: linear-gradient(252deg, rgba(0, 149, 211, 1) 0%, rgba(71, 190, 177, 1) 100%);color: #fff; }
+
 
 .aboutUsCountWrap{padding: 80px 0;}
 .aboutUsCountSec{display: flex;gap: 80px;justify-content: space-between;}

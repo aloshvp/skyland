@@ -3,6 +3,7 @@
 import HomeForm from "@home/HomeForm";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
     return (
@@ -175,7 +176,7 @@ const About = () => {
                                     <p>Excellence is at the heart of everything we do, and it is supported by these three core values.</p>
                                 </div>
                                 <div className="downloadBrochureBtn">
-                                    <a href="#" className="btn btn-primary">Download</a>
+                                    <Link href="" scroll={false}>Download</Link>
                                 </div>
                             </div>
                         </div>
