@@ -37,11 +37,11 @@ const Banner = () => {
                             <div className='bannerOverlay'></div>
                             <div className='container'>
                                 <div className='bannerContent'>
-                                    <h1 data-aos="fade-up" data-aos-duration="1200">
+                                    <h1 data-aos="fade-up" data-aos-duration="800">
                                         {slide.title}
                                         <span>{slide.subtitle}</span>
                                     </h1>
-                                    <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">{slide.description}</p>
+                                    <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">{slide.description}</p>
                                 </div>
                             </div>
                         </div>

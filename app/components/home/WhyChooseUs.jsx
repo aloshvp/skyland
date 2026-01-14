@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
                     <div
                         className="whyChooseImage"
                         data-aos="fade-up"
-                        data-aos-duration="1200"
+                        data-aos-duration="800"
                     >
                         <Image
                             src="/images/home/why-choose-us.png"
@@ -26,20 +26,23 @@ const WhyChooseUs = () => {
                     <div className="whyChooseContent paddingLeft">
                         <h2
                             data-aos="fade-up"
-                            data-aos-duration="1200">
+                            data-aos-duration="800"
+                            data-aos-delay="0">
                             What Makes Skyland One of Kerala’s Most Trusted Builders
                         </h2>
                         <div
                             className="SecHead_Small"
                             data-aos="fade-up"
-                            data-aos-duration="1200"
+                            data-aos-duration="800"
+                            data-aos-delay="50"
                         >
                             Why Choose Us
                         </div>
                         <div
                             className="SecHeading"
                             data-aos="fade-up"
-                            data-aos-duration="1200"
+                            data-aos-duration="800"
+                            data-aos-delay="100"
                         >
                             Driven by integrity, we deliver value through our services
                         </div>
@@ -53,7 +56,7 @@ const WhyChooseUs = () => {
                                     { title: "On-Time Delivery", content: "We respect deadlines and are committed to delivering projects on schedule without compromising on quality." },
                                     { title: "Sustainable Practices", content: "We implement eco-friendly construction methods and materials to minimize environmental impact." }
                                 ].map((item, index) => (
-                                    <Accordion.Item eventKey={index.toString()} key={index} data-aos="fade-up" data-aos-duration="1200">
+                                    <Accordion.Item eventKey={index.toString()} key={index} data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
                                         <Accordion.Header>{item.title}</Accordion.Header>
                                         <Accordion.Body>
                                             <p>{item.content}</p>

@@ -108,6 +108,10 @@
 .bestWorkControls{display:flex;align-items:center;gap:15px}
 .bestWorkControls .swiper-pagination-bullet{width: 5px;height: 5px;border-radius: 50%;}
 .bestWorkControls .swiper-pagination-bullet-active{background: #fff;width: 12px;height: 5px;border-radius: 5;}
+.bestWorkControls .swiper-pagination-fraction, 
+.bestWorkControls .swiper-pagination-custom, 
+.bestWorkControls .swiper-horizontal > .swiper-pagination-bullets, 
+.bestWorkControls .swiper-pagination-bullets.swiper-pagination-horizontal{width: auto;}
 .custom-nav-btn{cursor:pointer;transition:opacity .3s}
 .custom-nav-btn:hover{opacity:.7}
 .bestWorkMainSlider{width:100%;height:100%;position:absolute;top:0;left:0;z-index:1}
