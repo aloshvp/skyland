@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Thumbs, Controller } from 'swiper/modules';
-import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { bestWorkSlides } from '@utils/homeData';
@@ -53,11 +52,11 @@ const BestWork = () => {
                             <h2 className="sectionTitle" data-aos="fade-up" data-aos-duration="1000"><em>View Some of Our</em> Best Work</h2>
                             <div className="bestWorkControls" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                                 <div className="swiper-button-prev-custom custom-nav-btn">
-                                    <Image src="/images/common/prev-arrow.svg" alt="Previous" width={24} height={24} />
+                                    <Image src="/images/home/left-arrow.png" alt="Previous" width={59} height={59} />
                                 </div>
                                 <div className="swiper-pagination-custom"></div>
                                 <div className="swiper-button-next-custom custom-nav-btn">
-                                    <Image src="/images/common/next-arrow.svg" alt="Next" width={24} height={24} />
+                                    <Image src="/images/home/right-arrow.png" alt="Next" width={59} height={59} />
                                 </div>
                             </div>
                         </div>

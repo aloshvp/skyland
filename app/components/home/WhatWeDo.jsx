@@ -3,8 +3,16 @@ import React from 'react'
 const WhatWeDo = () => {
     return (
         <section className='whatWeDoWrap'>
-            <h2 data-aos="fade-up" data-aos-delay="0">What We Do?</h2>
-            <p data-aos="fade-up" data-aos-delay="100">At Skyland Buildings & Construction, we turn visions into lasting structures. From residential and commercial spaces to custom builds, we deliver quality, precision, and on-time results — building not just projects, but lasting trust.</p>
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-lg-10">
+                        <div className="whatWeDoHead">
+                            <h2 data-aos="fade-up" data-aos-delay="0">What We Do?</h2>
+                            <p data-aos="fade-up" data-aos-delay="100">At Skyland Buildings & Construction, we turn visions into lasting structures. From residential and commercial spaces to custom builds, we deliver quality, precision, and on-time results — building not just projects, but lasting trust.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="whatWeDoGrid">
                 <div className="whatWeDoGridItem item1" data-aos="fade-up" data-aos-delay="200">
                     <div className="whatWeDoGridItemIcon whatWeDoGridItemIcon1">
