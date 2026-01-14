@@ -10,10 +10,10 @@ const HomeForm = () => {
             <div className="container">
                 <div className="homeFormContent">
                     <div className="homeFormHead">
-                        <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">Are you planning a new project?</h2>
-                        <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="50">Partner with Skyland, where experience meets excellence. From design to delivery, we ensure quality, transparency, and timely completion every step of the way. Let’s build your vision together.</p>
+                        <h2 data-aos="fade-up" data-aos-duration="600" data-aos-delay="0">Are you planning a new project?</h2>
+                        <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">Partner with Skyland, where experience meets excellence. From design to delivery, we ensure quality, transparency, and timely completion every step of the way. Let’s build your vision together.</p>
                     </div>
-                    <div className="homeFormSec" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <div className="homeFormSec" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                         <form action="">
                             <input type="text" placeholder="Name" />
                             <input type="email" placeholder="Email" />
