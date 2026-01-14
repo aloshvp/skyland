@@ -1,7 +1,8 @@
 "use client";
 
+import HomeForm from "@home/HomeForm";
 import React from "react";
-import { Accordion } from 'react-bootstrap';
+import Image from "next/image";
 
 const About = () => {
     return (
@@ -12,25 +13,25 @@ const About = () => {
                 <div className="subBannerImgWrap">
                     <div className="banner-image">
                         <img
-                            src="/images/banner-about.avif"
+                            src="/images/static/about-us-bg.png"
                             alt="About Us"
                         />
                         <div className="banner-title">
                             <div className="containerWrapper">
                                 <div className="sub-banner-caption">
                                     <div
-                                        className="subCaption"
+                                        className="mainTitle"
                                         data-aos="fade-up"
                                         data-aos-duration="1500"
                                     >
                                         About Us
                                     </div>
                                     <div
-                                        className="mainTitle"
+                                        className="subCaption"
                                         data-aos="fade-up"
                                         data-aos-duration="1500"
                                     >
-                                        Engineering Excellence at Every Level
+                                        Home &gt; About Us
                                     </div>
                                 </div>
                             </div>
@@ -39,59 +40,31 @@ const About = () => {
                 </div>
             </section>
 
-            {/* Pattern */}
-            <div className="pattern-bg-top">
-                <img
-                    src="/images/pattern-bg-top.png"
-                    alt="services"
-                />
-            </div>
-
-            {/* About Section */}
-            <section className="aboutSec">
-                <div className="containerWrapper">
-                    <div className="AboutBoxRow">
-                        <div className="row">
-                            <div className="col-lg-5">
-                                <div
-                                    className="Main_Heading"
-                                    data-aos="fade-up"
-                                    data-aos-duration="1200"
-                                >
-                                    <h1>About Us</h1>
+            {/* about us count */}
+            <section className="aboutUsCountWrap">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="aboutUsCountSec">
+                                <div className="aboutUsCountSecItem item1">
+                                    <span>20+</span>
+                                    <h3>Years of Experiance</h3>
+                                    <p>Our years of industry experience allow Skyland Builders to bring expertise, efficiency, and innovation to every project—ensuring results you can trust</p>
                                 </div>
-                            </div>
-
-                            <div className="col-lg-7">
-                                <div className="AboutContentBox">
-                                    <div className="aboutDescMain">
-                                        <p data-aos="fade-up" data-aos-duration="1200">
-                                            At Idea Cube Building Contracting LLC, we are more than
-                                            just builders - we are visionaries shaping the future of
-                                            urban living. With a deep-rooted commitment to excellence,
-                                            we specialize in delivering high-quality commercial and
-                                            residential spaces that go beyond expectations.
-                                        </p>
-                                    </div>
-
-                                    <div className="aboutDesc">
-                                        <p data-aos="fade-up" data-aos-duration="1200">
-                                            Our philosophy is driven by innovation, precision, and a
-                                            relentless pursuit of sustainability. Every structure we
-                                            create is a thoughtful blend of functionality, aesthetics,
-                                            and long-term value.
-                                        </p>
-
-                                        <p data-aos="fade-up" data-aos-duration="1200">
-                                            Over the years, we have built a reputation for integrity,
-                                            transparency, and delivering on our promises.
-                                        </p>
-
-                                        <p data-aos="fade-up" data-aos-duration="1200">
-                                            We don’t just construct buildings, We create landmarks of
-                                            trust, excellence, and lasting impact.
-                                        </p>
-                                    </div>
+                                <div className="aboutUsCountSecItem item2">
+                                    <span>109+</span>
+                                    <h3>Completed projects</h3>
+                                    <p>Our completed projects reflect our quality, precision, and timely delivery—showcasing our commitment to client satisfaction.</p>
+                                </div>
+                                <div className="aboutUsCountSecItem item3">
+                                    <span>12</span>
+                                    <h3>Ongoing Projects</h3>
+                                    <p>Ongoing projects that reflect our steady progress, quality, and commitment to excellence.</p>
+                                </div>
+                                <div className="aboutUsCountSecItem item4">
+                                    <span>3</span>
+                                    <h3>Ready to Move</h3>
+                                    <p>Homes that are fully finished, quality-checked, and ready for immediate occupancy.</p>
                                 </div>
                             </div>
                         </div>
@@ -99,18 +72,40 @@ const About = () => {
                 </div>
             </section>
 
-            {/* Quote Banner */}
-            <section className="about_banner_BlockSec">
-                <div className="about_banner_Block_BoxWrap">
-                    <div className="containerWrapper">
-                        <div
-                            className="about_banner_Block_Title"
-                            data-aos="fade-up"
-                            data-aos-duration="1200"
-                        >
-                            Building Excellence Today,
-                            <br />
-                            Shaping a Better Tomorrow
+            {/* Our Company */}
+            <section className="ourCompanyWrap">
+                <div className="ourCompanyContentSec">
+                    <div className="container">
+                        <h2>About <span>Our Company</span></h2>
+                        <p>Welcome to Skyland Buildings & Construction, where quality, reliability, and on-time delivery meet your vision. With skilled craftsmanship and experienced teams, we handle residential, commercial, and custom projects with precision and care.</p>
+                        <p>Our goal is simple: to build strong structures and even stronger client relationships. At Skyland, we don’t just construct buildings—we cultivate excellence, dependability, and trust from the ground up.</p>
+                    </div>
+                </div>
+                <div className="ourCompanyImgSec">
+
+                </div>
+            </section>
+
+            {/* MD Message */}
+            <section className="mdMsgWrap">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="mdMsgSec">
+                                <div className="mdMsgSecLeft">
+                                    <Image src="/images/static/MD.png" alt="mission" width={666} height={668} />
+                                </div>
+                                <div className="mdMsgSecRight">
+                                    <h2>MD's Message</h2>
+                                    <p>
+                                        At Skyland Builders, our journey has always been guided by a commitment to quality, integrity, and innovation. Over the years, we have built more than just structures—we have built trust, relationships, and a reputation for excellence.
+                                    </p>
+                                    <p>
+                                        Our goal is to create spaces that stand the test of time while ensuring our clients’ vision remains at the heart of every project. As we continue to grow, we remain dedicated to delivering craftsmanship you can rely on and service you can trust.
+                                    </p>
+                                    <span>Thank you for being part of our story.</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -169,64 +164,27 @@ const About = () => {
                 </div>
             </section>
 
-            {/* Why Choose Us */}
-            <section className="hm_why_Sec">
-                <div className="containerWrapper">
+            {/* Download Brochure */}
+            <section className="downloadBrochureWrap">
+                <div className="container">
                     <div className="row">
-                        <div className="col-lg-6">
-                            <div
-                                className="hm_why_ImageBox"
-                                data-aos="fade-up"
-                                data-aos-duration="1200"
-                            >
-                                <img
-                                    src="/images/why-choose.avif"
-                                    alt="Why Choose Us"
-                                />
-                            </div>
-                        </div>
-
-                        <div className="col-lg-6 alSelfCenter">
-                            <div className="hm_why_ContentBox pdLeft">
-                                <div
-                                    className="SecHead_Small"
-                                    data-aos="fade-up"
-                                    data-aos-duration="1200"
-                                >
-                                    Why Choose Us
+                        <div className="col-lg-12">
+                            <div className="downloadBrochureSec">
+                                <div className="downloadBrochureContent">
+                                    <h2>Download <em> Brochure</em> </h2>
+                                    <p>Excellence is at the heart of everything we do, and it is supported by these three core values.</p>
                                 </div>
-                                <div
-                                    className="SecHeading"
-                                    data-aos="fade-up"
-                                    data-aos-duration="1200"
-                                >
-                                    Driven by integrity, we deliver value through our services
-                                </div>
-
-                                {/* React-Bootstrap Accordion */}
-                                <div className="BoxAccordion">
-                                    <Accordion defaultActiveKey="0">
-                                        {[
-                                            { title: "Experienced Team", content: "Our team consists of industry veterans with decades of combined experience in construction and engineering." },
-                                            { title: "Innovative Designs", content: "We push the boundaries of architecture to create modern, functional, and aesthetically pleasing structures." },
-                                            { title: "Quality Assurance", content: "We adhere to strict quality control standards to ensure every project meets the highest benchmarks of safety and durability." },
-                                            { title: "On-Time Delivery", content: "We respect deadlines and are committed to delivering projects on schedule without compromising on quality." },
-                                            { title: "Sustainable Practices", content: "We implement eco-friendly construction methods and materials to minimize environmental impact." }
-                                        ].map((item, index) => (
-                                            <Accordion.Item eventKey={index.toString()} key={index} data-aos="fade-up" data-aos-duration="1200">
-                                                <Accordion.Header>{item.title}</Accordion.Header>
-                                                <Accordion.Body>
-                                                    <p>{item.content}</p>
-                                                </Accordion.Body>
-                                            </Accordion.Item>
-                                        ))}
-                                    </Accordion>
+                                <div className="downloadBrochureBtn">
+                                    <a href="#" className="btn btn-primary">Download</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <HomeForm />
+
         </>
     );
 };

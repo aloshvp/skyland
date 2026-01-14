@@ -8230,4 +8230,28 @@ screen and (max-height: 300px) {
 .serviceMainItemContent>a{font-size:16px}
 }
 
+.mdMsgWrap{padding: 100px 0;}
+.mdMsgSec{display:flex;align-items:center;gap: 80px;justify-content: space-between;}
+.mdMsgSecRight > h2{color: var(--grey);}
+.mdMsgSecRight > p{}
+.mdMsgSecRight > span{color: var(--grey);}
 
+.ourCompanyContentSec{display: flex;align-items: center;}
+.ourCompanyContentSec > div{flex: 1;}
+
+
+.downloadBrochureWrap{padding: 80px 60px;}
+.downloadBrochureSec{display: flex;align-items: center;gap: 80px;justify-content: space-between;}
+.downloadBrochureContent{display: flex;gap: 20px;align-items: center;}
+.downloadBrochureContent >h2{}
+.downloadBrochureContent >h2>em{display: block;font-style: normal;}
+
+.aboutUsCountWrap{padding: 80px 0;}
+.aboutUsCountSec{display: flex;gap: 80px;justify-content: space-between;}
+.aboutUsCountSecItem{flex: 1;}
+.aboutUsCountSecItem > span{font-size: 70px;font-family: 'neue_haas_grotesk_display65Md';color: #000;}
+.aboutUsCountSecItem.item2 > span{color: var(--greenBlue);}
+.aboutUsCountSecItem.item3 > span{color: var(--blue);}
+.aboutUsCountSecItem.item4 > span{color: var(--yellow);}
+.aboutUsCountSecItem > h3{font-size: 30px;margin: 20px 0;}
+.aboutUsCountSecItem > p{font-size: 24px;line-height: 1.5em;margin: 0;color: #707070;}
