@@ -17,9 +17,11 @@
       "@utils/*": [
         "utils/*"
       ],
+      "@functions/*": ["app/components/functions/*"],
       "@components/*": [
         "app/components/*"
       ],
+       "@lib/*": ["lib/*"],
     }
   }
 }

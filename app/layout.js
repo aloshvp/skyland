@@ -3,9 +3,10 @@ import "./globals.css";
 import "@styles/mainbundle.scss";
 import "@styles/stylesheet.css";
 import "@styles/test.css";
-import AOSInit from "@common/AOSInit";
-import Header from "@common/Header";
-import Footer from "@common/Footer";
+// import AOSInit from "@common/AOSInit";
+// import Header from "@common/Header";
+// import Footer from "@common/Footer";
+import ClientLayoutWrapper from "@common/ClientLayoutWrapper";
 
 export const metadata = {
   title: "Create Next App",
@@ -16,10 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body suppressHydrationWarning={true}>
-        <AOSInit />
-        <Header />
-        {children}
-        <Footer />
+        <ClientLayoutWrapper>{children}</ClientLayoutWrapper>
       </body>
     </html>
   );
