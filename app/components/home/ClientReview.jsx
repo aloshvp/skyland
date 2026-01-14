@@ -7,15 +7,15 @@ const ClientReview = () => {
             <div className="container">
                 <div className="clientReviewContent">
                     <div className="clientReviewTitle">
-                        <h2 data-aos="fade-up" data-aos-duration="600" data-aos-delay="0">Client <span>Review</span></h2>
+                        <h2 data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">Client <span>Review</span></h2>
                         <div>
-                            <span data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">Real</span>
-                            <span data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Experiences.</span>
-                            <span data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">Real Results.</span>
+                            <span data-aos="fade-up" data-aos-duration="700" data-aos-delay="50">Real</span>
+                            <span data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">Experiences.</span>
+                            <span data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">Real Results.</span>
                         </div>
                     </div>
                     <div className="clientReviewSlider">
-                        <div className="clientReviewSliderItem" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                        <div className="clientReviewSliderItem" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
                             <div className="clientReviewSliderItemImg">
                                 <Image src="/images/home/family-home.png" alt="clientReviewSlider1" width={565} height={507} />
                             </div>

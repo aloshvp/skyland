@@ -49,8 +49,8 @@ const BestWork = () => {
                 <div className="bestWorkOverlay">
                     <div className="container h-100">
                         <div className="bestWorkHeader">
-                            <h2 className="sectionTitle" data-aos="fade-up" data-aos-duration="600"><em>View Some of Our</em> Best Work</h2>
-                            <div className="bestWorkControls" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                            <h2 className="sectionTitle" data-aos="fade-up" data-aos-duration="700"><em>View Some of Our</em> Best Work</h2>
+                            <div className="bestWorkControls" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
                                 <div className="swiper-button-prev-custom custom-nav-btn">
                                     <Image src="/images/home/left-arrow.png" alt="Previous" width={59} height={59} />
                                 </div>
@@ -62,12 +62,12 @@ const BestWork = () => {
                         </div>
 
                         <div className="bestWorkFooterExternal">
-                            <div className="activeSlideInfo" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                            <div className="activeSlideInfo" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
                                 <h3>{bestWorkSlides[activeIndex]?.title}</h3>
                                 <p>{bestWorkSlides[activeIndex]?.description}</p>
                             </div>
 
-                            <div className="thumbsSliderWrap" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+                            <div className="thumbsSliderWrap" data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">
                                 <Swiper
                                     onSwiper={setThumbsSwiper}
                                     modules={[Thumbs]}
