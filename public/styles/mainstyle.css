@@ -124,7 +124,6 @@
 .thumbItem.active-thumb{opacity:1;border-color:#fff;box-shadow:0 4px 10px #0003}
 .thumbImg{width:100%;height:100%;display:block;object-fit:cover}
 
-
 /* Home Gallery */
 .homeGallerySection{width:100%}
 .homeGalleryGrid{display:grid;grid-template-columns:repeat(4,1fr);width:100%}
@@ -154,7 +153,7 @@
 .whyChooseAccordion .accordion-button:not(.collapsed)::after{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");transform:rotate(-180deg)}
 
 /* Post Tension */
-.postTensionWrap{position:relative;min-height:815px;margin:35px;display:flex;align-items:center}
+.postTensionWrap{position:relative;min-height:780px;margin:35px;display:flex;align-items:center}
 .postTensionBg{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:0;border-radius:3px}
 .postTensionOverlay{position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background:linear-gradient(90deg,#166457ff 0%,#ffff 100%);opacity:.5}
 .postTensionWrap .container{position:relative;z-index:2;width:100%}
@@ -166,6 +165,18 @@
 .postTensionContent .exploreBtn{display: inline-block;background: #fff;padding: 16px 42px;color: var(--greenBlue);border-radius: 30px;transition: all .5s ease;font-size: 22px;line-height: 1em;font-family: neue_haas_grotesk_display65Md;}
 .postTensionContent .exploreBtn:hover{background: var(--greenBlue);color: #fff;}
 
+/*client review*/
+.clientReviewWrap{background:#EFEFEF;padding: 135px 0;}
+.clientReviewContent{display:flex;gap:80px;}
+.clientReviewSliderItem{display: flex;align-items: stretch;}
+.clientReviewSliderItemImg{flex: 0 0 500px;}
+.clientReviewSliderItemImg >img{width: 100%;height: 100%;object-fit: cover;}
+.clientReviewSliderItemContent{flex: 1; padding: 0 35px;background:#dad9d9;display: flex;flex-direction: column;justify-content: center;border-radius: 0 100px 0 0;}
+.clientReviewSliderItemContent p{font-size: 30px;line-height: 1.4em;color: #000;font-family: neue_haas_grotesk_disp55roman;margin-bottom: 60px;}
+.clientReviewSliderItemContent span{font-size: 30px;line-height: 1.2em;color: #000;font-family: neue_haas_grotesk_disp55roman;text-align: right;display: block;}
+.clientReviewTitle > h2{font-size: 50px;line-height: 1em;margin-bottom: 80px;font-family: neue_haas_grotesk_disp55roman;color: #000;}
+.clientReviewTitle > h2 > span{display: block;font-size: 60px;line-height: 1em;font-family: neue_haas_grotesk_display65Md;color: #000;}
+.clientReviewTitle > div > span{font-size: 35px;font-family: neue_haas_grotesk_disp55roman;color: #000;display: block;line-height: 1.1em;}
 
 
 /*home form*/
@@ -181,13 +192,8 @@
 .homeFormSec form{display:flex;gap:50px;align-items:center;flex-wrap:wrap}
 .homeFormSec input{background:transparent;border:none;border:1px solid var(--grey);padding:18px 42px;color:#fff;font-size:18px;flex:1;border-radius: 50px;height: 70px;}
 .homeFormSec input::placeholder{color:var(--grey);font-size: 20px;line-height: 1em;}
-.homeFormSec button{background: linear-gradient(252deg, #47beb1 0%, #0095d3 100%);padding:20px 70px;border-radius:30px;font-size:28px;line-height: 1em;transition:all .3s ease;height: 70px;color:#fff;font-family: neue_haas_grotesk_display65Md;}
+.homeFormSec button{background: linear-gradient(252deg, #47beb1 0%, #0095d3 100%);padding:20px 70px;border-radius:30px;font-size:28px;line-height: 1em;transition:all .3s ease;height: 70px;color:#fff;font-family: neue_haas_grotesk_display65Md;border: 1px solid #fff;}
 .homeFormSec button:hover{background: linear-gradient(252deg, rgba(0, 149, 211, 1) 0%, rgba(71, 190, 177, 1) 100%);color: #fff; }
-
-/*client review*/
-.clientReviewWrap{background:#EFEFEF;padding: 135px 0;}
-.clientReviewContent{display:flex;gap:80px;}
-.clientReviewSliderItem{display: flex;align-items: center;border-radius: 260px 120px 0 0;background:#dad9d9;}
 
 /*footer*/
 .footerWrap{background:#000;padding: 135px 0;}
@@ -199,7 +205,6 @@
 .socialMediaList{padding: 0;margin: 0;display: flex;gap: 20px;}
 .footerLinksList{padding: 0;margin: 0;}
 .footerLinksList > li > a{color: var(--grey);font-family: neue_haas_grotesk_disp65Md;font-size: 22px;line-height: 1em;margin-bottom: 15px;display: block;}
-
 .footerBottomSec{display: flex;justify-content: space-between;border-top: 1px solid #707070;border-bottom: 1px solid #707070;padding: 20px 0;margin-top: 60px;}
 
 
