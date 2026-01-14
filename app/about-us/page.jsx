@@ -47,22 +47,22 @@ const About = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="aboutUsCountSec">
-                                <div className="aboutUsCountSecItem item1">
+                                <div className="aboutUsCountSecItem item1" data-aos="fade-up" data-aos-duration="1200">
                                     <span>20+</span>
                                     <h3>Years of Experiance</h3>
                                     <p>Our years of industry experience allow Skyland Builders to bring expertise, efficiency, and innovation to every project—ensuring results you can trust</p>
                                 </div>
-                                <div className="aboutUsCountSecItem item2">
+                                <div className="aboutUsCountSecItem item2" data-aos="fade-up" data-aos-duration="1400">
                                     <span>109+</span>
                                     <h3>Completed projects</h3>
                                     <p>Our completed projects reflect our quality, precision, and timely delivery—showcasing our commitment to client satisfaction.</p>
                                 </div>
-                                <div className="aboutUsCountSecItem item3">
+                                <div className="aboutUsCountSecItem item3" data-aos="fade-up" data-aos-duration="1600">
                                     <span>12</span>
                                     <h3>Ongoing Projects</h3>
                                     <p>Ongoing projects that reflect our steady progress, quality, and commitment to excellence.</p>
                                 </div>
-                                <div className="aboutUsCountSecItem item4">
+                                <div className="aboutUsCountSecItem item4" data-aos="fade-up" data-aos-duration="1800">
                                     <span>3</span>
                                     <h3>Ready to Move</h3>
                                     <p>Homes that are fully finished, quality-checked, and ready for immediate occupancy.</p>
@@ -77,9 +77,9 @@ const About = () => {
             <section className="ourCompanyWrap">
                 <div className="ourCompanyContentSec">
                     <div className="container">
-                        <h2>About <span>Our Company</span></h2>
-                        <p>Welcome to Skyland Buildings & Construction, where quality, reliability, and on-time delivery meet your vision. With skilled craftsmanship and experienced teams, we handle residential, commercial, and custom projects with precision and care.</p>
-                        <p>Our goal is simple: to build strong structures and even stronger client relationships. At Skyland, we don’t just construct buildings—we cultivate excellence, dependability, and trust from the ground up.</p>
+                        <h2 data-aos="fade-up" data-aos-duration="1200">About <span>Our Company</span></h2>
+                        <p data-aos="fade-up" data-aos-duration="1400">Welcome to Skyland Buildings & Construction, where quality, reliability, and on-time delivery meet your vision. With skilled craftsmanship and experienced teams, we handle residential, commercial, and custom projects with precision and care.</p>
+                        <p data-aos="fade-up" data-aos-duration="1600">Our goal is simple: to build strong structures and even stronger client relationships. At Skyland, we don’t just construct buildings—we cultivate excellence, dependability, and trust from the ground up.</p>
                     </div>
                 </div>
                 <div className="ourCompanyImgSec">
@@ -93,18 +93,18 @@ const About = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="mdMsgSec">
-                                <div className="mdMsgSecLeft">
+                                <div className="mdMsgSecLeft" data-aos="fade-up" data-aos-duration="1200">
                                     <Image src="/images/static/MD.png" alt="mission" width={666} height={668} />
                                 </div>
                                 <div className="mdMsgSecRight">
-                                    <h2>MD's Message</h2>
-                                    <p>
+                                    <h2 data-aos="fade-up" data-aos-duration="1200">MD's Message</h2>
+                                    <p data-aos="fade-up" data-aos-duration="1400">
                                         At Skyland Builders, our journey has always been guided by a commitment to quality, integrity, and innovation. Over the years, we have built more than just structures—we have built trust, relationships, and a reputation for excellence.
                                     </p>
-                                    <p>
+                                    <p data-aos="fade-up" data-aos-duration="1600">
                                         Our goal is to create spaces that stand the test of time while ensuring our clients’ vision remains at the heart of every project. As we continue to grow, we remain dedicated to delivering craftsmanship you can rely on and service you can trust.
                                     </p>
-                                    <span>Thank you for being part of our story.</span>
+                                    <span data-aos="fade-up" data-aos-duration="1800">Thank you for being part of our story.</span>
                                 </div>
                             </div>
                         </div>
@@ -172,10 +172,10 @@ const About = () => {
                         <div className="col-lg-12">
                             <div className="downloadBrochureSec">
                                 <div className="downloadBrochureContent">
-                                    <h2>Download <em> Brochure</em> </h2>
-                                    <p>Excellence is at the heart of everything we do, and it is supported by these three core values.</p>
+                                    <h2 data-aos="fade-up" data-aos-duration="1200">Download <em> Brochure</em> </h2>
+                                    <p data-aos="fade-up" data-aos-duration="1400">Excellence is at the heart of everything we do, and it is supported by these three core values.</p>
                                 </div>
-                                <div className="downloadBrochureBtn">
+                                <div className="downloadBrochureBtn" data-aos="fade-up" data-aos-duration="1600">
                                     <Link href="" scroll={false}>Download</Link>
                                 </div>
                             </div>
