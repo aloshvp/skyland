@@ -8236,9 +8236,12 @@ screen and (max-height: 300px) {
 .mdMsgSecRight > p{}
 .mdMsgSecRight > span{color: var(--grey);}
 
-.ourCompanyContentSec{display: flex;align-items: center;}
-.ourCompanyContentSec > div{flex: 1;}
-
+.ourCompanyWrap{display: flex;align-items: center;}
+.ourCompanyWrap > div{flex: 1;}
+.ourCompanyContentSec {background-color: var(--greenBlue);padding: 80px 80px 80px 0;color: #fff;}
+.ourCompanyContentSec h2{font-size: 60px;margin: 0 0 20px;font-family: 'neue_haas_grotesk_display65Md';line-height: 1em;}
+.ourCompanyContentSec h2 > span{display: block;}
+.ourCompanyContentSec p{font-size: 24px;line-height: 1.5em;margin: 0 0 20px;}
 
 .downloadBrochureWrap{padding: 80px 60px;background: linear-gradient(360deg, #47beb1 0%, #0095d3 100%);}
 .downloadBrochureSec{display: flex;align-items: center;gap: 80px;justify-content: space-between;}
