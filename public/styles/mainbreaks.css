@@ -151,7 +151,18 @@
     .homeFormSec form > *{flex: 1;}
    .homeFormSec input{height: 45px;}
    .homeFormSec button{height: 45px;padding: 5px 15px;font-size: 16px;}
-   
+
+   /**/
+   .footerWrap{padding: 60px 0;}
+   .footerSec{padding: 40px 0;}
+   .footerContent { flex-direction: column; gap: 30px; } 
+   .footerLinksSec { flex-direction: column; gap: 30px; } 
+   .footerBottomSec { flex-direction: column; gap: 5px; text-align: center;margin-top: 30px; } 
+   .footerLinksCol { width: 100%; }
+   .footerAddressSec p{margin-bottom: 10px;}
+   .socialMediaList{align-items: center;}
+   .socialMediaLinks>p{margin: 0;}
+   .footerLinksList > li > a{font-size: 20px;}
 
 
 }
@@ -176,11 +187,24 @@
     .bannerContent p{padding: 0 25px;}  
     .bannerContent h1 { margin-bottom: 15px; }
     .bannerSlide{height:650px;}
+    .bannerContent h1{font-size: 35px;}
+
+    /**/
+    .atGlanceGrid{min-height: auto;}
+    .atGlanceGrid{display: flex;flex-direction: column;gap: 20px;align-items: flex-start;gap: 40px;}
 
     /* Home Gallery */
     .homeGalleryGrid{grid-template-columns:1fr}
     .galleryItem {aspect-ratio:auto;height:300px}
     .galleryContent h3{font-size: 40px;}    
+
+    /**/
+    .bestWorkHeader{flex-direction: column;gap: 15px;}
+    .bestWorkFooterExternal{flex-direction: column;gap: 15px;align-items: flex-start;}
+    .activeSlideInfo{max-width: 100%;padding: 0;}
+    .thumbsSliderWrap{width: 300px;}
+    .sectionTitle,.sectionTitle > em{font-size: 35px;}
+    .sectionTitle > em{display: inline-block;}
 
 }
 
