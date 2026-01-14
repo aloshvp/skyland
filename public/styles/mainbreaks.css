@@ -118,6 +118,7 @@
     .activeSlideInfo{padding: 0 30px 0 0;}
     .activeSlideInfo h3{font-size: 30px;}
     .activeSlideInfo p{font-size: 20px;}
+    .thumbsSliderWrap{width: 300px;}
 
     /**/
     .clientReviewContent{flex-direction: column;}
@@ -201,8 +202,7 @@
     /**/
     .bestWorkHeader{flex-direction: column;gap: 15px;}
     .bestWorkFooterExternal{flex-direction: column;gap: 15px;align-items: flex-start;}
-    .activeSlideInfo{max-width: 100%;padding: 0;}
-    .thumbsSliderWrap{width: 300px;}
+    .activeSlideInfo{max-width: 100%;padding: 0;}    
     .sectionTitle,.sectionTitle > em{font-size: 35px;}
     .sectionTitle > em{display: inline-block;}
 
