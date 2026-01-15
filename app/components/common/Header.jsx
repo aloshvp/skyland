@@ -7,7 +7,7 @@ import useWindowSize from './useWindowSize'
 import { NAV_LINKS } from '@utils/homeData'
 
 
-const ALWAYS_SCROLLED_PATHS = ['/service'];
+const ALWAYS_SCROLLED_PATHS = ['/service', '/project-details'];
 
 const Header = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);

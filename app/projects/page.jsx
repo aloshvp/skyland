@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import AOS from "aos";
@@ -107,25 +108,26 @@ export default function Gallery() {
                                         className="col-xl-3 col-lg-4 col-sm-6"
                                         key={`${activeCategory}-${img.id}`}
                                     >
-                                        <div
-                                            className="glr-Box"
-                                            data-aos="fade-up"
-                                            data-aos-duration="600"
-                                            data-aos-delay={index * 50}
-                                            data-aos-offset="0"
-                                            onClick={() => openGallery(index)}
-                                            style={{ cursor: "pointer" }}
-                                        >
-                                            <div className="glr-item">
-                                                <img
-                                                    src={img.src}
-                                                    alt={`Gallery ${activeCategory} ${index + 1}`}
-                                                />
+                                        <Link href="/project-details" className="d-block w-100 h-100">
+                                            <div
+                                                className="glr-Box"
+                                                data-aos="fade-up"
+                                                data-aos-duration="600"
+                                                data-aos-delay={index * 50}
+                                                data-aos-offset="0"
+                                                style={{ cursor: "pointer" }}
+                                            >
+                                                <div className="glr-item">
+                                                    <img
+                                                        src={img.src}
+                                                        alt={`Gallery ${activeCategory} ${index + 1}`}
+                                                    />
+                                                </div>
+                                                <div className="glr-title">
+                                                    {img.category} Project
+                                                </div>
                                             </div>
-                                            <div className="glr-title">
-                                                {img.category} Project
-                                            </div>
-                                        </div>
+                                        </Link>
                                     </div>
                                 ))
                             ) : (
