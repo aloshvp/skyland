@@ -21,7 +21,10 @@
     "date-fns": "4.1.0",
     "fs": "0.0.1-security",
     "jose": "5.9.3",
-    "mysql2": "3.15.3"
+    "mysql2": "3.15.3",
+    "react-data-table-component": "^7.7.0",
+    "react-datepicker": "^8.10.0",
+    "react-select": "^5.10.2"
   },
   "devDependencies": {
     "eslint": "^9",

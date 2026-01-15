@@ -1,4 +1,109 @@
+"use client"
+import { alert } from "@functions/alertmessage";
+import { phonenovalidate, checknumberonly, emailvalidate } from "@functions/validation";
+import { useState } from "react";
+const initialFormState = {
+    name: '',
+    mobile: '', 
+    email:'',
+    subject: '',
+    enquiry: ''
+};
 const Contact = () => {
+
+      const [isSubmitting, setIsSubmitting] = useState(false);
+      const [formData, setFormData] = useState(initialFormState);
+
+    
+      const validateForm = () => {
+    
+        const getFieldName = (key) => {
+            switch(key) {
+                case 'name': return 'Name';
+                case 'mobile': return 'Mobile Number'; 
+                case 'email': return 'Email Address'; 
+                case 'subject': return 'Subject';
+                case 'enquiry': return 'Enquiry';
+                default: return key;
+            }
+        };
+        
+        const validationOrder = [
+            'name', 
+            'mobile', 
+            'email', 
+            'subject',
+            'enquiry'
+        ];
+        
+
+        for (const key of validationOrder) {
+            
+            const fieldName = getFieldName(key);
+            let isMissing = false;
+
+      
+              if (!formData[key] || (typeof formData[key] === 'string' && formData[key].trim() === '')) {
+                  isMissing = true;
+                  alert(`Please enter the required field : ${fieldName}.`);
+              }
+            
+
+            if (isMissing) {
+                return false;
+            }
+        }
+
+        return true;
+      };
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData(prevData => ({
+            ...prevData,
+            [name]: value,
+        }));
+    };
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        
+        if (!validateForm()) {
+            return; 
+        }
+
+        setIsSubmitting(true);
+        
+        const postFormData = new FormData(event.target);
+
+         try {
+                postFormData.append('switchOption', 'ManageContactUs');
+                postFormData.append('option', 'insert');
+                
+    
+                const response = await fetch('/api/contacts', {
+                    method: 'POST',
+                    body: postFormData, 
+                });
+    
+                if (!response.ok) {
+                    console.log(`HTTP error! status: ${response.status}`);
+                }
+
+                const result = await response.json(); 
+                if (result && result.resData === 'success') {
+                      setFormData(initialFormState);
+                      alert('We will get back to you soon.', 'success');
+                }else{
+                  alert('Something went wrong!.', 'warning');
+                }
+
+            } catch (error) {
+                console.error('Error submitting form:', error);
+            } finally {
+                setIsSubmitting(false);
+            }
+
+    }
     return (
         <>
 
@@ -134,14 +239,18 @@ const Contact = () => {
                                     data-aos="fade-up"
                                     data-aos-duration="1200"
                                 >
-                                    <form method="post">
+                                    <form method="post" onSubmit={handleSubmit}>
                                         <div className="row">
                                             <div className="col-md-12">
                                                 <div className="FormItem">
                                                     <div className="txt-label">
                                                         Name<span className="required">*</span>
                                                     </div>
-                                                    <input type="text" className="form-control" />
+                                                    <input type="text" className="form-control" 
+                                                     name="name" id="name" autoComplete="off" maxLength={50} 
+                                                        onChange={handleInputChange}
+                                                        value={formData.name ?? ''}
+                                                    />
                                                 </div>
                                             </div>
 
@@ -150,7 +259,13 @@ const Contact = () => {
                                                     <div className="txt-label">
                                                         Phone<span className="required">*</span>
                                                     </div>
-                                                    <input type="text" className="form-control" />
+                                                    <input type="text" className="form-control"
+                                                    name="mobile" id="mobile" 
+                                                    onKeyDown={checknumberonly} onBlur={phonenovalidate} 
+                                                    onChange={handleInputChange}
+                                                    value={formData.mobile ?? ''}
+                                                    autoComplete="off" maxLength={10}
+                                                    />
                                                 </div>
                                             </div>
 
@@ -159,14 +274,24 @@ const Contact = () => {
                                                     <div className="txt-label">
                                                         Email<span className="required">*</span>
                                                     </div>
-                                                    <input type="email" className="form-control" />
+                                                    <input type="email" className="form-control" 
+                                                        name="email" onBlur={emailvalidate} 
+                                                        onChange={handleInputChange}
+                                                        value={formData.email ?? ''}
+                                                        id="email" autoComplete="off" maxLength={300}
+                                                    />
                                                 </div>
                                             </div>
 
                                             <div className="col-md-12">
                                                 <div className="FormItem">
                                                     <div className="txt-label">Subject</div>
-                                                    <input type="text" className="form-control" />
+                                                    <input type="text" className="form-control" 
+                                                    name="subject" id="subject" 
+                                                    onChange={handleInputChange}
+                                                    value={formData.subject ?? ''}
+                                                    autoComplete="off" maxLength={500}
+                                                    />
                                                 </div>
                                             </div>
 
@@ -175,20 +300,18 @@ const Contact = () => {
                                                     <div className="txt-label">Enquiry</div>
                                                     <textarea
                                                         className="form-control"
-                                                        id="message"
+                                                        id="enquiry"
                                                         rows="1"
+                                                        name="enquiry"
+                                                        autoComplete="off" maxLength={500}
+                                                        onChange={handleInputChange}
+                                                        value={formData.enquiry ?? ''}
                                                     />
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <button
-                                            type="button"
-                                            id="contact"
-                                            className="btn btn-submit"
-                                        >
-                                            Submit
-                                        </button>
+                                        <input type='text' className="hiddeninput"  name="hiddenfield"  tabIndex="-1" aria-hidden="true"/>
+                                        <button className="btn btn-submit" disabled={isSubmitting} >Submit</button> 
                                     </form>
                                 </div>
                             </div>

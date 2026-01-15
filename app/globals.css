@@ -15,6 +15,7 @@ p>em{display:block}
 input,input:focus,input:active,input:focus-visible{outline:none!important;box-shadow:none!important}
 select:focus,select:active,select:focus-visible{outline:none;box-shadow:none}
 html{scroll-behavior:smooth}
+.hiddeninput {position: absolute;left: -9999px;}
 
 @media (min-width: 1600px) {
   .container { max-width: 100% !important; padding-left: 100px; padding-right: 100px; }
