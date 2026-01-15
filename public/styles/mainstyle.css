@@ -202,7 +202,7 @@
 .homeFormSec button:hover{background: linear-gradient(252deg, rgba(0, 149, 211, 1) 0%, rgba(71, 190, 177, 1) 100%);color: #fff; }
 
 /*footer*/
-.footerWrap{background:#000;padding: 135px 0;}
+.footerWrap{background:#000;padding: 80px 0;}
 .footerContent{display: flex;justify-content: space-between;gap: 60px;}
 .footerContent span{color: #fff;font-family: neue_haas_grotesk_disp65Md;font-size: 22px;line-height: 1em;margin-bottom: 20px;display: block;}
 .footerLogoSec{display: flex;flex-direction: column;justify-content: space-between;gap: 60px;}

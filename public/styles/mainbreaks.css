@@ -48,6 +48,8 @@
     .homeFormSec input{padding:18px 42px;height: 70px;}
     .homeFormSec button{padding:20px 70px;height: 70px;font-size: 28px;}
 
+    .footerWrap{padding: 120px 0;}
+
 }
 
 @media screen and (min-width: 1440px) {
