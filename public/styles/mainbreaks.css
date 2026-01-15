@@ -81,7 +81,7 @@
     .bannerSlide{height:750px;}
     .bannerWrapper .swiper-pagination{right:25px!important;} 
 
-    /*At glance*/
+    /*At glance*/        
     .atGlanceGrid{padding: 40px 0;}
     .atGlanceItem h2{font-size: 50px;}
     .atGlanceItem.item2 > img{max-width: 80px;}
@@ -149,9 +149,10 @@
    .homeFormHead p{font-size: 20px;}
    .homeFormContent{gap: 40px;justify-content: flex-start;}
    .homeFormSec form{gap: 15px;}
-    .homeFormSec form > *{flex: 1;}
-   .homeFormSec input{height: 45px;}
+   .homeFormSec form > *{flex: 1;}
+   .homeFormSec input{height: 45px;padding: 10px 30px;}
    .homeFormSec button{height: 45px;padding: 5px 15px;font-size: 16px;}
+
 
    /**/
    .footerWrap{padding: 60px 0;}
@@ -191,24 +192,50 @@
     .bannerContent h1{font-size: 35px;}
 
     /**/
-    .atGlanceGrid{min-height: auto;}
-    .atGlanceGrid{display: flex;flex-direction: column;gap: 20px;align-items: flex-start;gap: 40px;}
+    .atGlanceWrap{margin: 20px 15px;height: 65vh;}
+    .atGlanceItem h2 { font-size: 30px; }
+    .atGlanceGrid{display: flex;flex-direction: column;gap: 20px;align-items: center;gap: 40px;min-height: auto;justify-content: center;}
+    .atGlanceItem span{font-size: 30px;}
+    .atGlanceItem .exploreBtn { padding: 12px 32px; font-size: 18px;}
+    .atGlanceItem.item4{align-items: center;}
+    .atGlanceItem p{text-align: center;}
 
     /* Home Gallery */
     .homeGalleryGrid{grid-template-columns:1fr}
-    .galleryItem {aspect-ratio:auto;height:300px}
+    .galleryItem {aspect-ratio:auto;height:250px}
     .galleryContent h3{font-size: 40px;}    
+    .bestWorkBody{height: 85vh;}
 
     /**/
     .bestWorkHeader{flex-direction: column;gap: 15px;}
     .bestWorkFooterExternal{flex-direction: column;gap: 15px;align-items: flex-start;}
     .activeSlideInfo{max-width: 100%;padding: 0;}    
-    .sectionTitle,.sectionTitle > em{font-size: 35px;}
+    .sectionTitle,.sectionTitle > em{font-size: 25px;}
     .sectionTitle > em{display: inline-block;}
+    .activeSlideInfo h3 { font-size: 25px; }
+    .activeSlideInfo p { font-size: 18px; }
+
+    .whyChooseSection{overflow: hidden;}
+    .whyChooseContent > h2{font-size: 30px;}
+
+    .postTensionWrap{min-height: 500px;}
+    .postTensionContent h2{font-size: 30px;}
+    .postTensionContent p{font-size: 22px;margin-bottom: 20px;}
+
+    .clientReviewTitle > h2{font-size: 30px;margin-bottom: 20px;}
+    .clientReviewTitle > h2 > span{font-size: 40px;}
+    .clientReviewTitle > div > span{font-size: 22px;}
+    .clientReviewSliderItemContent {padding: 25px; }
+
+    .whatWeDoHead h2{font-size: 30px;}
+    .whatWeDoHead p{font-size: 20px;}
 
 }
 
 @media only screen and (max-width: 479px) {
+
+    /*common*/
+    .homeFormHead h2{font-size: 30px;}
 
     /*header*/
     .sidebarHeader{padding: 20px 20px 5px;}
@@ -218,6 +245,16 @@
 
     /*banner*/
     .bannerContent p{font-size: 16px;}
+
+    /**/
+    .homeFormHead p{font-size: 18px;}
+
+    /**/
+    .whyChooseContent > h2 { font-size: 25px; }
+    .SecHead h1, .SecHeading { font-size: 20px; }
+
+    /**/
+    .postTensionContent p { font-size: 20px; }
 
 }
 
