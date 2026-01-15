@@ -31,14 +31,15 @@
 @media screen and (max-width: 1200px) {
 
     /*header*/
-    .headerWrap{gap: 20px;}
+    .headerWrap{gap: 20px; background-color: #000; backdrop-filter:blur(2px); padding: 10px 50px;}
+    .navLinksListSec { display: none; }
     .navLinksList > li > a{font-size: 18px;}
     .talkWithUsSec span{font-size: 16px;}
     .headerLogo > img{max-width: 100px;}
     .headerWrap.scrolled .headerLogo > img {top: -35px;}
-    .headerWrap.fix{padding: 10px 50px;}
-    .headerWrap.fix .headerLogoSec > a > img{transform: none;max-width: 145px;}
-    .headerWrap.fix .navLinksList{gap:20px}
+    /* .headerWrap.fix{padding: 10px 50px;}  Already applied in .headerWrap */
+    .headerWrap .headerLogoSec > a > img, .headerWrap.fix .headerLogoSec > a > img{transform: none;max-width: 145px;}
+    .headerWrap .navLinksList, .headerWrap.fix .navLinksList{gap:20px}
 
 
     /* Why Choose Us Home */    
