@@ -213,7 +213,7 @@
     /*header*/
     .sidebarHeader{padding: 20px 20px 5px;}
     .sidebarNavList a{font-size: 16px;}
-    .sidebarNavList li{margin-bottom: 0;}
+    .sidebarNavList li{margin-bottom: 12px;padding-bottom: 12px;}
 
 
     /*banner*/
