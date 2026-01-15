@@ -8,6 +8,46 @@
     .navLinksList{gap:90px;}
     .headerLogoSec > a > img{max-width: 100%;}
 
+    .atGlanceItem h2{font-size: 90px;}
+    .atGlanceItem span{font-size: 90px;}
+
+    .whatWeDoGridItem{padding: 60px;}
+    .whatWeDoGridItem p{font-size: 30px;}
+    .whatWeDoHead p{font-size: 35px;}
+
+    .whatWeDoGridItem p{font-size: 30px;}
+
+    .bestWorkBody{height:90vh}
+    .sectionTitle{font-size: 90px;}
+    .sectionTitle > em{font-size: 55px;}
+    .activeSlideInfo h3{font-size:50px;}
+    .thumbsSliderWrap{width:400px}
+    .thumbItem{height:100px;}
+
+    .galleryItem{height:480px;}
+
+    .whyChooseContent > h2{font-size: 70px;padding-bottom: 100px;}
+    .whyChooseContent.paddingLeft{padding-left:80px}
+
+    .postTensionWrap{min-height:780px;}
+    .postTensionContent h2{font-size: 90px;margin-bottom: 40px;}
+    .postTensionContent p{font-size: 30px;margin-bottom: 50px;}
+
+    .clientReviewWrap{padding: 135px 0;}
+    .clientReviewContent{flex-direction: row;}
+    .clientReviewTitle > h2{margin-bottom: 80px;}
+    .clientReviewTitle > h2 > span{display: block;}
+    .clientReviewTitle > div{flex-direction: column;}
+    .clientReviewContent{gap: 80px;}
+    .clientReviewSliderItemContent p{font-size: 30px;margin-bottom: 60px;}
+    .clientReviewSliderItemContent span{font-size: 30px;}
+
+    .homeFormWrap{padding:150px 0 200px;}
+    .homeFormSec form{margin-top: 60px;gap:50px;}
+    .homeFormHead h2{font-size:70px;}
+    .homeFormSec input{padding:18px 42px;height: 70px;}
+    .homeFormSec button{padding:20px 70px;height: 70px;font-size: 28px;}
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -45,6 +85,8 @@
     /* Why Choose Us Home */    
     .whyChooseContent.paddingLeft{padding-left:30px}
     .whyChooseContent.paddingRight{padding-right:30px}
+
+    .homeFormSec form{flex-wrap: wrap;}
 
    
 
