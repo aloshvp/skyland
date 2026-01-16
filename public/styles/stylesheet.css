@@ -8282,6 +8282,19 @@ screen and (max-height: 300px) {
 
 
 @media only screen and (max-width: 991px) {
+.aboutUsCountWrap{padding: 60px 0;}
 .aboutUsCountSec{flex-direction: column;gap: 40px;}
+.aboutUsCountSecItem > span{font-size: 60px;line-height: 1em;}
+.aboutUsCountSecItem > h3{font-size: 25px;margin: 15px 0;}
+.aboutUsCountSecItem > p{font-size: 20px;}
+.ourCompanyContentSec h2 > span{display: inline-block;}
+.ourCompanyContentSec{padding: 60px 0 45px;}
+.ourCompanyContentSec h2{font-size: 40px;}
+.ourCompanyContentSec p { margin: 0 0 15px; font-size: 20px;}
+.mdMsgSecRight > h2{font-size: 40px;}
+.mdMsgSecRight > p{font-size: 24px;margin: 0 0 15px;}
+.mdMsgSecRight > span{font-size: 28px;margin-top: 20px;}
+.downloadBrochureWrap{padding: 60px 15px;}
+.homeFormSec form{margin: 0;}
 }
 
