@@ -30,6 +30,8 @@ export async function POST(req) {
                 const enq_email = formData?.get('email') ?? null;
                 const enq_subject = formData?.get('subject') ?? null;
                 const enq_message = formData?.get('enquiry') ?? null;
+                const enq_type = formData?.get('type') ?? null;
+                const enq_pagename = formData?.get('pagename') ?? null;
                 
                 if (option === 'insert'&& !serverEmailvalidate(enq_email)&&!serverPhoneValidate(enq_mobile)) {
                     return NextResponse.json({ resData: 'Please enter valid details' }, { status: 400 });
@@ -46,7 +48,9 @@ export async function POST(req) {
                         enq_mobile,
                         enq_email,
                         enq_subject,
-                        enq_message]);
+                        enq_message,
+                        enq_type,
+                        enq_pagename]);
 
                     if (['insert','delete'].includes(option)) {
                         return NextResponse.json({ resData: 'success' }, { status: 200 });

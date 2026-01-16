@@ -17,7 +17,8 @@ const AdminLeftMenu = ({flag}) => {
       name: 'General', href: '', order: "0",
       submenu: [
         { name: 'Careers', href: 'view-careers', order: "0.1" },
-        { name: 'Contact Enquiries', href: 'view-enquiries', order: "0.2" },
+        { name: 'Enquiries', href: 'view-enquiries', order: "0.2" },
+        { name: 'Contact us', href: 'view-contact-us', order: "0.3" },
       ]
     },
   ]);

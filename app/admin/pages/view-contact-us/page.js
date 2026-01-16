@@ -21,7 +21,7 @@ const [loader, setLoader] = useState(true);
 
     const payload = {
       switchOption: 'ManageContactUs',
-      option: 'selectenquiry',
+      option: 'selectall',
     };
     
     const formData = new FormData();
@@ -73,6 +73,18 @@ const [loader, setLoader] = useState(true);
         { name: "Name", selector: row => row.name, width: '10%', wrap: true },
         { name: "Mobile", selector: row => row.mobile, width: '15%', wrap: true },
         { name: "Email", selector: row => row.email, width: '15%', wrap: true },
+        { name: "Subject", selector: row => row.subject, width: '15%', wrap: true },
+        {
+            name: "Enquiry",
+            selector: row => row.enquiry,
+            width: '20%',
+            wrap: true,
+            cell: row => (
+                <div className="scrolldiv">
+                    {row.enquiry}
+                </div>
+            ),
+        },
         {
             name: 'Action',
             center: "true",
@@ -124,7 +136,7 @@ const [loader, setLoader] = useState(true);
   return (
     <div className="adminCmnWrap">
       <div className="admnHead">
-        <h2>View Enquiries</h2> 
+        <h2>View Contact Us</h2> 
       </div>
       <div className="AdminDataTbl">
             {

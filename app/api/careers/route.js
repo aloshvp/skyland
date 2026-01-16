@@ -46,7 +46,7 @@ export async function POST(req) {
                 const enq_mobile = formData?.get('mobile') ?? null;
                 const enq_email = formData?.get('email') ?? null;
                 const enq_location = formData?.get('location') ?? null;
-                const enq_expertise = formData?.get('expertise') ?? null;
+                const enq_experience = formData?.get('experience') ?? null;
                 const enq_coverletter = formData?.get('coverletter') ?? null;
                 const enq_file = formData?.get('file_upload') ?? null;
                 let fileName='';
@@ -106,7 +106,7 @@ export async function POST(req) {
                         enq_mobile,
                         enq_email,
                         enq_location,
-                        enq_expertise,
+                        enq_experience,
                         enq_coverletter,
                         fileName]);
 

@@ -78,6 +78,8 @@ const Contact = () => {
          try {
                 postFormData.append('switchOption', 'ManageContactUs');
                 postFormData.append('option', 'insert');
+                postFormData.append('type', 'contact');
+                postFormData.append('pagename', 'contact-us');
                 
     
                 const response = await fetch('/api/contacts', {

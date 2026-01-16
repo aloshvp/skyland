@@ -75,13 +75,13 @@ const [loader, setLoader] = useState(true);
         { name: "Email", selector: row => row.email, width: '10%', wrap: true },
         { name: "Location", selector: row => row.location, width: '10%', wrap: true },
         {
-            name: "Expertise",
-            selector: row => row.expertise,
+            name: "Experience",
+            selector: row => row.experience,
             width: '20%',
             wrap: true,
             cell: row => (
                 <div className="scrolldiv">
-                    {row.expertise}
+                    {row.experience}
                 </div>
             ),
         },
