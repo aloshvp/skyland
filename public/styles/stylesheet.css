@@ -8263,7 +8263,7 @@ screen and (max-height: 300px) {
 .downloadBrochureBtn > a:hover{background: linear-gradient(252deg, rgba(0, 149, 211, 1) 0%, rgba(71, 190, 177, 1) 100%);color: #fff; }
 
 @media only screen and (max-width: 767px) {
-.downloadBrochureSec{flex-direction: column;gap: 40px;}
+.downloadBrochureSec{flex-direction: column;gap: 30px;}
 .downloadBrochureContent{flex-direction: column;}
 .downloadBrochureContent > h2{display: flex;gap: 8px;}
 .downloadBrochureContent > p{text-align: center;}
@@ -8292,9 +8292,27 @@ screen and (max-height: 300px) {
 .ourCompanyContentSec h2{font-size: 40px;}
 .ourCompanyContentSec p { margin: 0 0 15px; font-size: 20px;}
 .mdMsgSecRight > h2{font-size: 40px;}
-.mdMsgSecRight > p{font-size: 24px;margin: 0 0 15px;}
+.mdMsgSecRight > p{font-size: 22px;margin: 0 0 15px;}
 .mdMsgSecRight > span{font-size: 28px;margin-top: 20px;}
 .downloadBrochureWrap{padding: 60px 15px;}
 .homeFormSec form{margin: 0;}
+.downloadBrochureBtn > a { height: auto; padding: 10px 30px;font-size: 20px;}
 }
 
+@media only screen and (max-width: 767px) { 
+.aboutUsCountWrap{padding: 40px 0;}	
+.aboutUsCountSec{gap: 30px;}
+.aboutUsCountSecItem > span{font-size: 40px;}
+.aboutUsCountSecItem > h3{font-size: 20px;}
+.aboutUsCountSecItem > p{font-size: 18px;}
+.ourCompanyContentSec h2{font-size: 30px;}
+.ourCompanyContentSec p{font-size: 18px;}
+.ourCompanyContentSec{padding: 40px 0 25px;}
+.mdMsgSecRight > h2{font-size: 30px;}
+.mdMsgSecRight > p{font-size: 20px;margin: 0 0 10px;}
+.downloadBrochureWrap{padding: 40px 0;}
+}
+
+@media only screen and (max-width: 479px) {
+	.mdMsgSecLeft > img { max-width: 280px;}
+}
