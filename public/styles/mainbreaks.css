@@ -45,8 +45,7 @@
     .homeFormWrap{padding:150px 0 200px;}
     .homeFormSec form{margin-top: 60px;gap:50px;}
     .homeFormHead h2{font-size:70px;}
-    .homeFormSec input{padding:18px 42px;height: 70px;}
-    .homeFormSec button{padding:20px 70px;height: 70px;font-size: 28px;}
+    .homeFormSec input{padding:18px 42px;}
 
     .footerWrap{padding: 120px 0;}
 
@@ -195,8 +194,8 @@
    .homeFormContent{gap: 40px;justify-content: flex-start;}
    .homeFormSec form{gap: 15px;}
    .homeFormSec form > *{flex: 1;}
-   .homeFormSec input{height: 45px;padding: 10px 30px;}
-   .homeFormSec button{height: 45px;padding: 5px 15px;font-size: 16px;}
+   .homeFormSec input{padding: 10px 30px;}
+   .homeFormSec button{padding: 5px 15px;font-size: 16px;}
 
 
    /**/

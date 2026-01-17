@@ -21,7 +21,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <Link href="" scroll={false}>
-                                        <Image src="/images/common/facebook.png" alt="facebook" width={15} height={28} />
+                                        <Image src="/images/common/instagram.svg" alt="instagram" width={40} height={40} />
                                     </Link>
                                 </li>
                                 <li>
