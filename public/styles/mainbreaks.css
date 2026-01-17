@@ -65,9 +65,7 @@
     
 }
 
-@media screen and (min-width: 1300px) {
-
-}
+@media screen and (min-width: 1300px) {}
 
 @media screen and (max-width: 1200px) {
 
@@ -108,7 +106,6 @@
     /* Home Gallery */
     .homeGalleryGrid{grid-template-columns:repeat(2,1fr)}
 }
-
 
 @media only screen and (max-width: 991px) {
 
