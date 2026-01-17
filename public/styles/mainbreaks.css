@@ -21,7 +21,7 @@
     .sectionTitle{font-size: 90px;}
     .sectionTitle > em{font-size: 55px;}
     .activeSlideInfo h3{font-size:50px;}
-    .thumbsSliderWrap{width:400px}
+    /* .thumbsSliderWrap{width:400px} */
     .thumbItem{height:100px;}
 
     .galleryItem{height:480px;}

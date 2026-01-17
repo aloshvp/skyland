@@ -72,7 +72,7 @@ const BestWork = () => {
                                     onSwiper={setThumbsSwiper}
                                     modules={[Thumbs]}
                                     watchSlidesProgress
-                                    slidesPerView={3}
+                                    slidesPerView={4}
                                     spaceBetween={10}
                                     className="bestWorkThumbsSlider"
                                 >
