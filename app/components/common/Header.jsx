@@ -80,9 +80,17 @@ const Header = () => {
                 <div className="hamburgerSec">
                     <Link href="" className="talkWithUsBtn" scroll={false}>Talk with us</Link>
                     <div className="hamburger" onClick={toggleSidebar}>
-                        <span className="line1"></span>
-                        <span className="line2"></span>
-                        <span className="line3"></span>
+                        <Image
+                            src="/images/common/burger-menu.svg"
+                            alt="Burger Menu"
+                            width={29}
+                            height={23}
+                            className="img"
+                            priority
+                        />
+                        {/* <span className="line1"></span> */}
+                        {/* <span className="line2"></span> */}
+                        {/* <span className="line3"></span> */}
                     </div>
                 </div>
 
@@ -120,7 +128,7 @@ const Header = () => {
             <div className="whatsappBtnWrap">
                 <Link href="https://wa.me/" target="_blank" className="whatsappBtn">
                     <Image
-                        src="/images/common/whatsapp.png"
+                        src="/images/common/whatsapp.svg"
                         alt="WhatsApp"
                         width={30}
                         height={30}

@@ -15,11 +15,7 @@
 .headerLogoSec > a > img{position: relative;top: 0;transition: all 0.5s ease;max-width: 200px;}
 .headerWrap.fix .headerLogoSec > a > img{transform:scale(0.8);}
 .hamburgerSec{display:flex;align-items: center;gap:20px;}
-.hamburger{display:flex;flex-direction:column;gap:9px;cursor:pointer;height: max-content;align-items: flex-end;}
-.hamburger span{display:block;width:23px;height:2px;background:#fff;transition:all .3s ease}
-.hamburger span.mrgnLft{margin-left:10px;}
-.hamburger span.line2{width:20px;}
-.hamburger span.line3{width:16px;}
+.hamburger{display:flex;flex-direction:column;gap:6px;cursor:pointer;height: max-content;align-items: flex-end;}
 .headerWrap.scrolled .hamburger span{width:23px}
 .talkWithUsBtn {background: linear-gradient(252deg, rgba(71, 190, 177, 1) 0%, rgba(0, 149, 211, 1) 100%);border-radius: 30px; align-items: center; gap: 15px; padding: 16px 32px; font-size: 16px; transition: background .3s ease-in-out; display  : inline-flex;color: #fff;font-family: neue_haas_grotesk_display65Md;line-height: 1em; }
 .talkWithUsBtn:hover {background: linear-gradient(252deg, rgba(0, 149, 211, 1) 0%, rgba(71, 190, 177, 1) 100%);color: #fff; }
@@ -44,7 +40,8 @@
 .sidebarNavList a.active{color:var(--greenBlue);}
 
 /*WhatsApp Button*/
-.whatsappBtnWrap{position: fixed;bottom: 80px;right: 80px;z-index: 1000;border-radius: 50%;padding: 8px;background: rgba(191, 191, 191, 0.2); }
+/* .whatsappBtnWrap{position: fixed;bottom: 80px;right: 80px;z-index: 1000;border-radius: 50%;padding: 8px;background: rgba(191, 191, 191, 0.2); } */
+.whatsappBtnWrap{position: fixed;bottom: 80px;right: 80px;z-index: 1000;border-radius: 50%; }
 .whatsappBtn{display: inline-block;width: 38px;height: 38px;display: flex;align-items: center;justify-content: center;transition: all 0.3s ease;}
 .whatsappBtn:hover{transform: scale(1.1);}
 .whatsappBtn img{width: 38px;height: 38px;}
