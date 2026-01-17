@@ -206,8 +206,12 @@
 .footerLogoSec{display: flex;flex-direction: column;justify-content: space-between;gap: 60px;}
 .footerLinksSec{display: flex;gap: 120px;}
 .socialMediaLinks{display: flex;gap: 40px;}
-.socialMediaList{padding: 0;margin: 0;display: flex;gap: 20px;}
+.socialMediaList{padding: 0;margin: 0;display: flex;gap: 20px;align-items:center;}
 .footerLinksList{padding: 0;margin: 0;}
-.footerLinksList > li > a{color: var(--grey);font-family: 'neue_haas_grotesk_display65Md'; font-weight: normal;font-size: 20px;line-height: 1.2em;margin-bottom: 15px;display: block;}
+.footerLinksList > li > a{color: var(--grey);font-family: 'neue_haas_grotesk_display65Md'; font-weight: normal;font-size: 20px;line-height: 1.2em;margin-bottom: 18px;display: block;}
+.footerLinksList > li:last-child > a{margin-bottom: 0;}
+.footerLinksList > li > a:hover{color: var(--greenBlue);}
 .footerBottomSec{display: flex;justify-content: space-between;border-top: 1px solid #707070;border-bottom: 1px solid #707070;padding: 20px 0;margin-top: 60px;}
 .footerAddressSec > p{color: var(--grey);font-size: 24px;margin: 0 0 15px;}
+.socialMediaLinks > p{font-size: 24px;line-height: 1em;color: var(--grey);margin: 0;}
+.footerBottomSec > p{font-size: 16px;line-height: 1em;color: var(--grey);}
