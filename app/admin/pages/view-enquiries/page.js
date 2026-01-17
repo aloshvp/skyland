@@ -70,9 +70,9 @@ const [loader, setLoader] = useState(true);
     const newColumns = [
         { name: "Date", selector: row => row.created_at ? format(new Date(row.created_at), 'dd-MMM-yyyy') : 'NA', wrap: true ,sortable: true,},
        
-        { name: "Name", selector: row => row.name, width: '10%', wrap: true },
-        { name: "Mobile", selector: row => row.mobile, width: '15%', wrap: true },
-        { name: "Email", selector: row => row.email, width: '15%', wrap: true },
+        { name: "Name", selector: row => row.name, wrap: true },
+        { name: "Mobile", selector: row => row.mobile,wrap: true },
+        { name: "Email", selector: row => row.email, wrap: true },
         {
             name: 'Action',
             center: "true",

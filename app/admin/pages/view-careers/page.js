@@ -69,15 +69,15 @@ const [loader, setLoader] = useState(true);
 
     const newColumns = [
         { name: "Date", selector: row => row.created_date ? format(new Date(row.created_date), 'dd-MMM-yyyy') : 'NA', wrap: true },
-        { name: "First Name", selector: row => row.first_name, width: '10%', wrap: true },
-        { name: "Last Name", selector: row => row.last_name, width: '10%', wrap: true },
-        { name: "Phone", selector: row => row.phone, width: '5%', wrap: true },
-        { name: "Email", selector: row => row.email, width: '10%', wrap: true },
-        { name: "Location", selector: row => row.location, width: '10%', wrap: true },
+        { name: "First Name", selector: row => row.first_name, wrap: true },
+        { name: "Last Name", selector: row => row.last_name, wrap: true },
+        { name: "Phone", selector: row => row.phone, wrap: true },
+        { name: "Email", selector: row => row.email, wrap: true },
+        { name: "Location", selector: row => row.location, wrap: true },
         {
             name: "Experience",
             selector: row => row.experience,
-            width: '20%',
+            width: '15%',
             wrap: true,
             cell: row => (
                 <div className="scrolldiv">
@@ -88,7 +88,7 @@ const [loader, setLoader] = useState(true);
         {
             name: "Cover Letter",
             selector: row => row.coverletter,
-            width: '10%',
+            width: '15%',
             wrap: true,
             cell: row => (
                 <div className="scrolldiv">

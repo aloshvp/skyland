@@ -139,7 +139,7 @@ textarea {resize: vertical;font-family:Open Sans, sans-serif !important;}
 .iconEye.not{background-image: url('../images/admin/slash.svg');}
 .iconEdit{display: inline-block;width: 15px;height: 15px;background-image: url('../images/admin/edit.svg');background-repeat: no-repeat;background-size: contain;}
 .iconDelete{display: inline-block;width: 15px;height: 15px;background-image: url('../images/admin/trash.svg');background-repeat: no-repeat;background-size: contain;}
-.iconActive{display: inline-block;width: 15px;height: 15px;background-image: url('../images/admin/check.svg');background-repeat: no-repeat;background-size: contain;}
+.iconActive{display: inline-block;width: 15px;height: 15px;background-image: url('../images/admin/check.svg');background-repeat: no-repeat;background-size: contain;cursor: pointer;}
 .iconActive.not{background-image: url('../images/admin/x.svg');}
 .scrolldiv{max-height: 80px;overflow-y: auto;}
 
