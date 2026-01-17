@@ -98,9 +98,9 @@
 .bestWorkWrap{overflow:hidden;position:relative}
 .bestWorkBody{position:relative;height:80vh}
 .bestWorkOverlay{position:absolute;top:0;left:0;width:100%;height:100%;z-index:10;pointer-events:none;background:linear-gradient(360deg,#000 0%,#fff0 100%);}
-.bestWorkOverlay .container{height:100%;display:flex;flex-direction:column;justify-content:space-between;padding-top:60px;padding-bottom:60px}
+.bestWorkOverlay .container{height:100%;display:flex;flex-direction:column;justify-content:space-between;padding-top:80px;padding-bottom:80px}
 .bestWorkHeader,.bestWorkFooterExternal{pointer-events:auto}
-.bestWorkHeader{display:flex;justify-content:space-between;align-items:center;margin-bottom:30px}
+.bestWorkHeader{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:30px}
 .sectionTitle{color: #fff;font-size: 70px;line-height: 1em;font-family: 'neue_haas_grotesk_display65Md'; font-weight: normal;}
 .sectionTitle > em{display: block;font-family: 'neue_haas_grotesk_disp55roman';font-size: 35px;line-height: 1em;font-style: normal;}
 .bestWorkControls{display:flex;align-items:center;gap:15px}
@@ -120,7 +120,7 @@
 .activeSlideInfo{max-width:60%;color: #fff;}
 .activeSlideInfo h3{font-size:45px;margin-bottom:10px;font-family: 'neue_haas_grotesk_display65Md'; font-weight: normal;line-height: 1em;}
 .activeSlideInfo p{font-size:30px;line-height: 1.4em;color:#fff;max-width: 850px;}
-.thumbsSliderWrap{width:360px}
+.thumbsSliderWrap{width:360px}.bestWorkHeader
 .bestWorkThumbsSlider .swiper-slide{cursor:pointer}
 .thumbItem{border-radius:15px;overflow:hidden;opacity:.5;transition:opacity 0.3s,border .3s;border:2px solid transparent;height:82px !important;position:relative;width: 82px !important;}
 .thumbItem.active-thumb{opacity:1;border-color:#fff;box-shadow:0 4px 10px #0003}
