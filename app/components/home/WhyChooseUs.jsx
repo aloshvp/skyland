@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
                             data-aos-duration="700"
                             data-aos-delay="100"
                         >
-                            Driven by integrity, we deliver value through our services
+                            Driven by integrity, we deliver value through our products and services
                         </div>
 
                         <div className="whyChooseAccordion">
