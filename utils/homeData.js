@@ -43,30 +43,30 @@ export const bestWorkSlides = [
         id: 1,
         image: '/images/home/Banerslider1.png',
         title: 'Enhance Clarity and Focus',
-        description: 'A stunning large-scale window installation featuring a wood mulliontransom system and double-glazed windows for soundproofing.'
+        description: 'A stunning large-scale window installation featuring a wood mullion- transom system and double-glazed windows for soundproofing.'
     },
     {
         id: 2,
         image: '/images/home/Banerslider2.png',
         title: 'Enhance Clarity and Focus',
-        description: 'A stunning large-scale window installation featuring a wood mulliontransom system and double-glazed windows for soundproofing.'
+        description: 'A stunning large-scale window installation featuring a wood mullion- transom system and double-glazed windows for soundproofing.'
     },
     {
         id: 3,
         image: '/images/home/Banerslider1.png',
         title: 'Enhance Clarity and Focus',
-        description: 'A stunning large-scale window installation featuring a wood mulliontransom system and double-glazed windows for soundproofing.'
+        description: 'A stunning large-scale window installation featuring a wood mullion- transom system and double-glazed windows for soundproofing.'
     },
     {
         id: 4,
         image: '/images/home/Banerslider2.png',
         title: 'Enhance Clarity and Focus',
-        description: 'A stunning large-scale window installation featuring a wood mulliontransom system and double-glazed windows for soundproofing.'
+        description: 'A stunning large-scale window installation featuring a wood mullion- transom system and double-glazed windows for soundproofing.'
     },
     {
         id: 5,
         image: '/images/home/Banerslider1.png',
         title: 'Enhance Clarity and Focus',
-        description: 'A stunning large-scale window installation featuring a wood mulliontransom system and double-glazed windows for soundproofing.'
+        description: 'A stunning large-scale window installation featuring a wood mullion- transom system and double-glazed windows for soundproofing.'
     }
 ]

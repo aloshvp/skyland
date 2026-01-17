@@ -21,8 +21,8 @@ const AtGlance = () => {
                         <Image
                             src="/images/home/play-Button.png"
                             alt="Play Button"
-                            width={108}
-                            height={108}
+                            width={107}
+                            height={107}
                             data-aos="fade-up" data-aos-duration="700" data-aos-delay="50" />
                     </div>
                     <div className="atGlanceItem item3">
