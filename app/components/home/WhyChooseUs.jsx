@@ -2,6 +2,7 @@
 import React from 'react'
 import { Accordion } from 'react-bootstrap'
 import Image from 'next/image'
+import { whyChooseUsAccordionData } from '@utils/homeData'
 
 const WhyChooseUs = () => {
     return (
@@ -14,10 +15,10 @@ const WhyChooseUs = () => {
                         data-aos-duration="700"
                     >
                         <Image
-                            src="/images/home/why-choose-us.png"
+                            src="/images/home/why-choose-us-hero.png.png"
                             alt="Why Choose Us"
-                            width={785}
-                            height={1176}
+                            width={784}
+                            height={898}
                         />
                     </div>
                 </div>
@@ -49,13 +50,7 @@ const WhyChooseUs = () => {
 
                         <div className="whyChooseAccordion">
                             <Accordion defaultActiveKey="0">
-                                {[
-                                    { title: "Experienced Team", content: "Our team consists of industry veterans with decades of combined experience in construction and engineering." },
-                                    { title: "Innovative Designs", content: "We push the boundaries of architecture to create modern, functional, and aesthetically pleasing structures." },
-                                    { title: "Quality Assurance", content: "We adhere to strict quality control standards to ensure every project meets the highest benchmarks of safety and durability." },
-                                    { title: "On-Time Delivery", content: "We respect deadlines and are committed to delivering projects on schedule without compromising on quality." },
-                                    { title: "Sustainable Practices", content: "We implement eco-friendly construction methods and materials to minimize environmental impact." }
-                                ].map((item, index) => (
+                                {whyChooseUsAccordionData.map((item, index) => (
                                     <Accordion.Item eventKey={index.toString()} key={index} data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">
                                         <Accordion.Header>{item.title}</Accordion.Header>
                                         <Accordion.Body>

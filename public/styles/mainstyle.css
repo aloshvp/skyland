@@ -117,12 +117,12 @@
 .bestWorkImage{width:100%;height:100%;position:relative}
 .workImg{object-fit:cover}
 .bestWorkFooterExternal{display:flex;justify-content:space-between;align-items:flex-end}
-.activeSlideInfo{max-width:60%;padding:30px;color: #fff;}
+.activeSlideInfo{max-width:60%;color: #fff;}
 .activeSlideInfo h3{font-size:45px;margin-bottom:10px;font-family: 'neue_haas_grotesk_display65Md'; font-weight: normal;line-height: 1em;}
 .activeSlideInfo p{font-size:30px;line-height: 1.4em;color:#fff;max-width: 850px;}
 .thumbsSliderWrap{width:360px}
 .bestWorkThumbsSlider .swiper-slide{cursor:pointer}
-.thumbItem{border-radius:10px;overflow:hidden;opacity:.5;transition:opacity 0.3s,border .3s;border:2px solid transparent;height:75px;position:relative}
+.thumbItem{border-radius:10px;overflow:hidden;opacity:.5;transition:opacity 0.3s,border .3s;border:2px solid transparent;height:82px;position:relative}
 .thumbItem.active-thumb{opacity:1;border-color:#fff;box-shadow:0 4px 10px #0003}
 .thumbImg{width:100%;height:100%;display:block;object-fit:cover}
 
@@ -144,7 +144,7 @@
 .whyChooseContent{position:relative}
 .whyChooseContent.paddingLeft{padding-left:45px}
 .whyChooseContent.paddingRight{padding-right:45px}
-.whyChooseContent > h2{font-size: 40px;line-height: 1.3em;font-family: 'neue_haas_grotesk_display65Md'; font-weight: normal;padding-bottom: 40px;}
+.whyChooseContent > h2{font-size: 40px;line-height: 1.1em;font-family: 'neue_haas_grotesk_display65Md'; font-weight: normal;padding-bottom: 40px;color: #000;}
 .whyChooseAccordion{position:relative;margin:0}
 .whyChooseAccordion .accordion-button:not(.collapsed){background-color:transparent}
 .whyChooseAccordion .accordion-button{font-family:'neue_haas_grotesk_display75Bd';font-style:normal;color:#111;font-size:24px;padding:20px 0}

@@ -70,3 +70,11 @@ export const bestWorkSlides = [
         description: 'A stunning large-scale window installation featuring a wood mullion- transom system and double-glazed windows for soundproofing.'
     }
 ]
+
+export const whyChooseUsAccordionData = [
+    { title: "Experienced Team", content: "Our team of seasoned engineers, architects, and project managers brings deep industry expertise and a hands-on approach to every project - ensuring excellence from concept to completion." },
+    { title: "Innovative Designs", content: "Our team of seasoned engineers, architects, and project managers brings deep industry expertise and a hands-on approach to every project - ensuring excellence from concept to completion." },
+    { title: "Quality Assurance", content: "Our team of seasoned engineers, architects, and project managers brings deep industry expertise and a hands-on approach to every project - ensuring excellence from concept to completion." },
+    { title: "On-Time Delivery", content: "Our team of seasoned engineers, architects, and project managers brings deep industry expertise and a hands-on approach to every project - ensuring excellence from concept to completion." },
+    { title: "Sustainable Practices", content: "Our team of seasoned engineers, architects, and project managers brings deep industry expertise and a hands-on approach to every project - ensuring excellence from concept to completion." }
+]
