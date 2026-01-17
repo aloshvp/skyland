@@ -58,7 +58,7 @@
     .headerWrap.scrolled .headerNavLinks .navLinksList{gap:50px;}
     .headerWrap { padding: 20px 100px;}
     .headerWrap.fix{padding: 10px 100px;}
-    .talkWithUsBtn{padding: 16px 32px;font-size: 18px;}
+    .talkWithUsBtn{font-size: 18px;}
     .navLinksList{gap:40px;}
     .navLinksList > li > a{font-size: 20px;}
     

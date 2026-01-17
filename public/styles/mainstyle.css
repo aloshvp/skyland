@@ -4,7 +4,7 @@
 .headerWrap > .container{width:100%}
 .headerSec{display:flex;justify-content:space-between;padding: 35px 0 0;height: 135px;}
 .headerWrap.fix .headerSec{padding: 30px 0 0;height: 100px;}
-.navLinksList{display:flex;gap:30px;transition:all 0.5s ease;height: 100px;padding: 0;margin: 0;align-items: center;}
+.navLinksList{display:flex;gap:30px;transition:all 0.5s ease;height: 80px;padding: 0;margin: 0;align-items: center;}
 .headerWrap.fix .navLinksList{gap:30px;height: 70px;}
 .navLinksList > li{display: block;}
 .navLinksList > li > a{font-size: 18px;line-height: 1em;color: #fff;}
@@ -17,7 +17,7 @@
 .hamburgerSec{display:flex;align-items: center;gap:20px;}
 .hamburger{display:flex;flex-direction:column;gap:6px;cursor:pointer;height: max-content;align-items: flex-end;}
 .headerWrap.scrolled .hamburger span{width:23px}
-.talkWithUsBtn {background: linear-gradient(252deg, rgba(71, 190, 177, 1) 0%, rgba(0, 149, 211, 1) 100%);border-radius: 30px; align-items: center; gap: 15px; padding: 16px 32px; font-size: 16px; transition: background .3s ease-in-out; display  : inline-flex;color: #fff;font-family: neue_haas_grotesk_display65Md;line-height: 1em; }
+.talkWithUsBtn {background: linear-gradient(252deg, rgba(71, 190, 177, 1) 0%, rgba(0, 149, 211, 1) 100%);border-radius: 30px; align-items: center; gap: 15px; padding: 15px 30px; font-size: 16px; transition: background .3s ease-in-out; display  : inline-flex;color: #fff;font-family: neue_haas_grotesk_display65Md;line-height: 1em; }
 .talkWithUsBtn:hover {background: linear-gradient(252deg, rgba(0, 149, 211, 1) 0%, rgba(71, 190, 177, 1) 100%);color: #fff; }
 
 /* Mobile Sidebar */
@@ -41,10 +41,10 @@
 
 /*WhatsApp Button*/
 /* .whatsappBtnWrap{position: fixed;bottom: 80px;right: 80px;z-index: 1000;border-radius: 50%;padding: 8px;background: rgba(191, 191, 191, 0.2); } */
-.whatsappBtnWrap{position: fixed;bottom: 80px;right: 80px;z-index: 1000;border-radius: 50%; }
-.whatsappBtn{display: inline-block;width: 38px;height: 38px;display: flex;align-items: center;justify-content: center;transition: all 0.3s ease;}
+.whatsappBtnWrap{position: fixed;bottom: 80px;right: 100px;z-index: 1000;border-radius: 50%; }
+.whatsappBtn{display: inline-block;width: 64px;height: 64px;display: flex;align-items: center;justify-content: center;transition: all 0.3s ease;}
 .whatsappBtn:hover{transform: scale(1.1);}
-.whatsappBtn img{width: 38px;height: 38px;}
+.whatsappBtn img{width: 64px;height: 64px;}
 
 /*Banner*/
 .bannerWrapper{position:relative;}
@@ -78,8 +78,8 @@
 .atGlanceItem h2{font-size: 60px;line-height: 1em;font-family: neue_haas_grotesk_display65Md; color: #fff; max-width: 400px;}
 .atGlanceItem span{font-size: 60px;line-height: 1em; display: block; margin-bottom: 20px; font-family: neue_haas_grotesk_disp55roman;}
 .atGlanceItem p{font-size: 24px;line-height: 1em;text-align: right;}
-.atGlanceItem .exploreBtn{display: inline-block;background: #fff;padding: 16px 42px;color: var(--greenBlue);border-radius: 30px;transition: all .5s ease;font-size: 22px;line-height: 1em;font-family: neue_haas_grotesk_display65Md;}
-.atGlanceItem .exploreBtn:hover{background: var(--greenBlue);color: #fff;}
+.atGlanceItem .exploreBtn{display: inline-block;background: linear-gradient(252deg, rgba(71, 190, 177, 1) 0%, rgba(0, 149, 211, 1) 100%);color: #fff;padding: 16px 42px;border-radius: 30px;transition: all .5s ease;font-size: 22px;line-height: 1em;font-family: neue_haas_grotesk_display65Md;}
+.atGlanceItem .exploreBtn:hover{background: linear-gradient(252deg, rgba(0, 149, 211, 1) 0%, rgba(71, 190, 177, 1) 100%);color: #fff; }
 
 /*what we do*/
 .whatWeDoWrap{margin: 85px 35px;}

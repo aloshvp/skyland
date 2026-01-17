@@ -88,9 +88,6 @@ const Header = () => {
                             className="img"
                             priority
                         />
-                        {/* <span className="line1"></span> */}
-                        {/* <span className="line2"></span> */}
-                        {/* <span className="line3"></span> */}
                     </div>
                 </div>
 
@@ -130,8 +127,8 @@ const Header = () => {
                     <Image
                         src="/images/common/whatsapp.svg"
                         alt="WhatsApp"
-                        width={30}
-                        height={30}
+                        width={64}
+                        height={64}
                     />
                 </Link>
             </div>

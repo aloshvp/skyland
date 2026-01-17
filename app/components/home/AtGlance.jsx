@@ -14,7 +14,8 @@ const AtGlance = () => {
             <div className="container">
                 <div className="atGlanceGrid">
                     <div className="atGlanceItem item1">
-                        <h2 data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">SkyLand Constructions</h2>
+
+                        <h2 data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">SKYLAND Constructions</h2>
                     </div>
                     <div className="atGlanceItem item2">
                         <Image
