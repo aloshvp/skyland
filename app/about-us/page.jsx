@@ -83,7 +83,15 @@ const About = () => {
                     </div>
                 </div>
                 <div className="ourCompanyImgSec">
-
+                    <div className="container">
+                        <Image
+                            src="/images/static/our-company.png"
+                            alt="ourCompany"
+                            width={728}
+                            height={720}
+                            className="img-fluid"
+                        />
+                    </div>
                 </div>
             </section>
 
