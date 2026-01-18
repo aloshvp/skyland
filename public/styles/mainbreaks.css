@@ -108,6 +108,10 @@
     /*home form*/
     .homeFormSec form{flex-wrap: wrap;}
 
+    /**/
+    .whyChooseAccordion .accordion-button{font-size:20px;padding: 15px 0;}
+    .whyChooseAccordion .accordion-body p{font-size: 16px;}
+
    
 
 }
