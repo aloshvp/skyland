@@ -216,7 +216,7 @@
    .footerSec{padding: 40px 0;}
    .footerContent { flex-direction: column; gap: 30px; } 
    .footerLinksSec { flex-direction: column; gap: 30px; } 
-   .footerBottomSec { flex-direction: column; gap: 5px; text-align: center;margin-top: 30px; } 
+   .footerBottomSec { flex-direction: column; gap: 10px; text-align: center;margin-top: 30px; } 
    .footerLinksCol { width: 100%; }
    .footerAddressSec p{margin-bottom: 10px;}
    .socialMediaList{align-items: center;}
@@ -252,12 +252,12 @@
     /**/
     .atGlanceWrap{height: 65vh;}
     .atGlanceWrap:after{border: 15px solid #fff;}
-    .atGlanceItem h2 { font-size: 30px; }
-    .atGlanceGrid{display: flex;flex-direction: column;gap: 20px;align-items: center;gap: 40px;min-height: auto;justify-content: center;}
+    .atGlanceItem h2 { font-size: 30px;text-align: center;}
+    .atGlanceGrid{display: flex;flex-direction: column;gap: 20px;align-items: center;gap: 40px;min-height: auto;justify-content: center;padding: 0 15px;}
     .atGlanceItem span{font-size: 30px;}
     .atGlanceItem .exploreBtn { padding: 12px 32px; font-size: 18px;}
     .atGlanceItem.item4{align-items: center;}
-    .atGlanceItem p{text-align: center;}
+    .atGlanceItem p{text-align: center;}    
 
     /* Home Gallery */
     .homeGalleryGrid{grid-template-columns:1fr}
@@ -286,6 +286,7 @@
     .clientReviewTitle > div > span{font-size: 22px;}
     .clientReviewSliderItemContent {padding: 25px; }
 
+    .whatWeDoWrap { margin: 35px 15px 45px;}
     .whatWeDoHead h2{font-size: 30px;}
     .whatWeDoHead p{font-size: 20px;}
 
@@ -300,7 +301,6 @@
     .sidebarHeader{padding: 20px 20px 5px;}
     .sidebarNavList a{font-size: 16px;}
     .sidebarNavList li{margin-bottom: 12px;padding-bottom: 12px;}
-
 
     /*banner*/
     .bannerContent h1{font-size: 30px;}
@@ -319,6 +319,21 @@
     /**/
     .whatWeDoGridItem{padding: 30px;}
     .whatWeDoGridItem p{font-size: 18px;}
+
+    /*footer*/
+    .footerWrap{padding: 40px 0;}
+    .footerLogoImg > img{max-width: 180px;}
+    .footerLogoSec{gap: 25px;}
+    .socialMediaLinks > p{font-size: 16px;}
+    .footerContent, .footerLinksSec{gap: 25px;}
+    .footerLinksList > li > a{font-size: 16px;margin-bottom: 10px;}
+    .footerContent span{font-size: 18px;margin-bottom: 15px;}
+    .footerBottomSec > p{font-size: 14px;}
+    .footerBottomSec{padding: 20px 0;margin-top: 25px;}
+    .socialMediaList > li a img{transform: scale(0.8);}
+    .socialMediaLinks {gap: 20px;}
+    .socialMediaList{gap: 10px;}
+
 
 }
 
