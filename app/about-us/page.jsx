@@ -4,42 +4,14 @@ import HomeForm from "@home/HomeForm";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import CommonBanner from "@components/static/CommonBanner";
 
 const About = () => {
     return (
         <>
 
             {/* Sub Banner */}
-            <section className="sub-banner-sec">
-                <div className="subBannerImgWrap">
-                    <div className="banner-image">
-                        <img
-                            src="/images/static/about-us-bg.png"
-                            alt="About Us"
-                        />
-                        <div className="banner-title">
-                            <div className="containerWrapper">
-                                <div className="sub-banner-caption">
-                                    <div
-                                        className="mainTitle"
-                                        data-aos="fade-up"
-                                        data-aos-duration="1500"
-                                    >
-                                        About Us
-                                    </div>
-                                    <div
-                                        className="subCaption"
-                                        data-aos="fade-up"
-                                        data-aos-duration="1500"
-                                    >
-                                        Home &gt; About Us
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <CommonBanner />
 
             {/* about us count */}
             <section className="aboutUsCountWrap">

@@ -1269,3 +1269,47 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 @media only screen and (max-width: 479px) {
 .mdMsgSecLeft > img{max-width:280px}
 }
+
+/* Common Banner Styles */
+.common-banner-sec{position:relative;color:#fff;margin:0}
+.commonBannerImgWrap{position:relative}
+.commonBannerImgWrap:before{position:absolute;content:'';left:0;right:0;top:0;bottom:auto;width:100%;height:50%;background:#000;background:linear-gradient(0deg,#0000 0%,#000f 100%);z-index:1}
+.common-banner-sec .banner-image{position:relative}
+.common-banner-sec .banner-image img{width:100%;height:100vh;object-fit:cover}
+.common-banner-sec .banner-image:after{position:absolute;content:'';left:0;right:0;top:0;bottom:0;width:100%;height:100%;background:#000;background:linear-gradient(90deg,#000000b3 0%,#0000001a 100%)}
+.common-banner-sec .bannerImageListing{position:relative}
+.common-banner-sec .bannerImageListing img{width:100%;height:300px;object-fit:cover;object-position:bottom center}
+.common-banner-sec .bannerImageListing:after{position:absolute;content:'';left:0;right:0;top:0;bottom:0;width:100%;height:100%;background:#185b3c99}
+.common-banner-captionWide{z-index:1;color:#fff;padding:0;max-width:80%;text-align:center;margin:auto}
+.common-banner-sec .banner-title.AlEnd{-ms-flex-align:end;align-items:flex-end;bottom:50px}
+.common-banner-sec .banner-title{color:#fff;position:absolute;top:0;bottom:0;right:0;left:0;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:flex-end;z-index:1}
+.common-banner-caption{z-index:1;color:#fff;max-width:525px;padding:0 0 120px;}
+.common-banner-caption.WiderCap{max-width:800px}
+.common-banner-sec .mainTitle{position:relative;font-family:'neue_haas_grotesk_disp55roman';font-weight:normal;font-size:40px;line-height:1em;color:#fff;margin:0 0 20px;}
+.common-banner-sec .mainTitle>em{display:block}
+.common-banner-sec .subCaption{position:relative;font-family:'neue_haas_grotesk_disp55roman';font-weight:normal;font-size:24px;text-transform:uppercase;line-height:1.1;color:var(--grey);margin:0 0 15px}
+.common-banner-sec .container-fluid{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+@media (min-width: 1400px) {
+.common-banner-caption{max-width:700px}
+.common-banner-sec .mainTitle{font-size:55px}
+.common-banner-sec .subCaption{font-size:18px}
+.common-banner-sec .container-fluid{padding-right:60px;padding-left:60px}
+}
+@media (max-width: 1199.98px) {
+.common-banner-sec .mainTitle{font-size:36px}
+.common-banner-sec .subCaption{font-size:15px}
+}
+@media (max-width: 991.98px) {
+.common-banner-caption{padding:80px 0 0;max-width:100%}
+.common-banner-caption.WiderCap{max-width:100%}
+.common-banner-sec .mainTitle{font-size:24px}
+.common-banner-sec .subCaption{font-size:13px;margin:0 0 5px}
+.common-banner-sec .bannerImageListing img{height:200px}
+}
+@media (max-width: 767.98px) {
+.common-banner-caption{padding:80px 0 0}
+.common-banner-sec .banner-image img{height:350px;object-fit:cover;object-position:center bottom}
+}
+@media (min-width: 992px) {
+.common-banner-sec .container-fluid{padding-right:30px;padding-left:30px}
+}
