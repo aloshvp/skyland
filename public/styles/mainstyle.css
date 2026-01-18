@@ -40,7 +40,7 @@
 .sidebarNavList a.active{color:var(--greenBlue);}
 
 /*WhatsApp Button*/
-.whatsappBtnWrap{position: fixed;bottom: 80px;right: 100px;z-index: 1000;border-radius: 50%; }
+.whatsappBtnWrap{position: fixed;bottom: 55px;right: 100px;z-index: 1000;border-radius: 50%; }
 .whatsappBtn{display: inline-block;width: 64px;height: 64px;display: flex;align-items: center;justify-content: center;transition: all 0.3s ease;}
 .whatsappBtn:hover{transform: scale(1.1);}
 .whatsappBtn img{width: 64px;height: 64px;}
