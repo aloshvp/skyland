@@ -54,7 +54,7 @@ const About = () => {
                         <p data-aos="fade-up" data-aos-duration="1600">Our goal is simple: to build strong structures and even stronger client relationships. At Skyland, we don’t just construct buildings—we cultivate excellence, dependability, and trust from the ground up.</p>
                     </div>
                 </div>
-                <div className="ourCompanyImgSec">
+                <div className="ourCompanyImgSec" data-aos="fade-up" data-aos-duration="1200">
                     <div className="container">
                         <Image
                             src="/images/static/our-company.png"
