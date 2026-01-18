@@ -193,9 +193,9 @@
 .homeFormHead p{font-size:30px;line-height:1.5em;margin-bottom:40px;color:var(--grey);text-align: center;}
 .homeFormSec{width: 100%;}
 .homeFormSec form{display:flex;gap:30px;align-items:center;margin-top: 40px;}
-.homeFormSec input{background:transparent;border:none;border:1px solid var(--grey);padding:12px 28px;color:#fff;font-size:18px;flex:1;border-radius: 50px;height: auto;}
+.homeFormSec input{background:transparent;border:none;border:1px solid var(--grey);padding:12px 28px;color:#fff;font-size:18px;flex:1;border-radius: 50px;height: 55px;}
 .homeFormSec input::placeholder{color:var(--grey);font-size: 20px;line-height: 1em;}
-.homeFormSec button{background: linear-gradient(252deg, #47beb1 0%, #0095d3 100%);padding:20px 70px;border-radius:30px;font-size:22px;line-height: 1em;transition:all .3s ease;color:#fff;font-family: 'neue_haas_grotesk_display65Md'; font-weight: normal;border: 1px solid #fff;}
+.homeFormSec button{background: linear-gradient(252deg, #47beb1 0%, #0095d3 100%);padding:16px 60px;border-radius:30px;font-size:22px;line-height: 1em;transition:all .3s ease;color:#fff;font-family: 'neue_haas_grotesk_display65Md'; font-weight: normal;border: 1px solid #fff;height: 55px;text-align: center;display: inline-flex;justify-content: center;align-items: center;}
 .homeFormSec button:hover{background: linear-gradient(252deg, rgba(0, 149, 211, 1) 0%, rgba(71, 190, 177, 1) 100%);color: #fff; }
 
 /*footer*/

@@ -45,7 +45,8 @@
     .homeFormWrap{padding:150px 0 200px;}
     .homeFormSec form{margin-top: 60px;gap:50px;}
     .homeFormHead h2{font-size:70px;}
-    .homeFormSec input{padding:18px 42px;}
+    .homeFormSec input{padding:18px 42px;height: 70px;}
+    .homeFormSec button{height: 70px;padding:16px 80px;}
 
     .footerWrap{padding: 120px 0;}
 
@@ -210,7 +211,7 @@
    .homeFormSec form{gap: 15px;}
    .homeFormSec form > *{flex: 1;}
    .homeFormSec input{padding: 10px 30px;}
-   .homeFormSec button{padding: 5px 15px;font-size: 16px;}
+   .homeFormSec button{padding: 12px 15px;font-size: 16px;}
 
    /*footer*/   
    .footerSec{padding: 40px 0;}
@@ -289,6 +290,9 @@
     .whatWeDoWrap { margin: 35px 15px 45px;}
     .whatWeDoHead h2{font-size: 30px;}
     .whatWeDoHead p{font-size: 20px;}
+
+        .homeFormSec input{height: 45px;}
+    .homeFormSec button{height: 45px;}
 
 }
 
