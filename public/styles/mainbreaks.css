@@ -142,12 +142,10 @@
     .bannerSlide{height:750px;}
     .bannerWrapper .swiper-pagination{right:25px!important;} 
 
-    /*At glance*/        
-    .atGlanceGrid{padding: 40px 0;}
+    /*At glance*/            
     .atGlanceItem h2{font-size: 50px;}
     .atGlanceItem.item2 > img{max-width: 80px;}
-    .atGlanceItem span{font-size: 50px;margin-bottom: 10px;}
-    .atGlanceItem.item4{align-items: flex-start;}
+    .atGlanceItem span{font-size: 50px;margin-bottom: 10px;display: block;text-align: right;}    
     .atGlanceItem p { font-size: 20px; line-height: 1.3em; }
 
      /*what we do*/
@@ -164,8 +162,7 @@
     .galleryContent h3{font-size: 40px;}
 
     /* Why Choose Us Home */    
-    .whyChooseSection{padding:50px 15px 20px; overflow-x: hidden;}
-    .whyChooseSection.pdHome{padding:50px 15px 20px}
+    .whyChooseSection{padding:50px 15px 35px; }
     .whyChooseImage{display: none;}
     .whyChooseAccordion .accordion-button{font-family:'neue_haas_grotesk_display65Md';font-size:18px;padding:15px 0}
     .whyChooseAccordion .titleSmall{font-size:15px;margin:0 0 10px}
@@ -175,11 +172,12 @@
     /**/
     .sectionTitle{font-size: 50px;}
     .custom-nav-btn >img{max-width: 40px;}
-    .thumbItem{height: 60px;}
+    .thumbItem{height: 70px !important;width: 70px !important;}
     .activeSlideInfo{padding: 0 30px 0 0;}
     .activeSlideInfo h3{font-size: 30px;}
-    .activeSlideInfo p{font-size: 20px;}
+    .activeSlideInfo p{font-size: 18px;}
     .thumbsSliderWrap{width: 300px;}
+    .bestWorkOverlay .container{padding-top: 60px;padding-bottom: 60px;}
 
     /**/
     .clientReviewContent{flex-direction: column;}
@@ -204,7 +202,7 @@
     .clientReviewTitle > div{display: flex;gap: 10px;}
     .clientReviewTitle > div > span{font-size: 25px;}
 
-   /**/
+   /*home form*/
    .homeFormWrap{padding: 60px 0;min-height:auto;}
    .homeFormHead h2{font-size: 40px;margin-bottom: 20px;text-align: center;}
    .homeFormHead p{font-size: 20px;}
@@ -214,9 +212,7 @@
    .homeFormSec input{padding: 10px 30px;}
    .homeFormSec button{padding: 5px 15px;font-size: 16px;}
 
-
-   /**/
-   .footerWrap{padding: 60px 0;}
+   /*footer*/   
    .footerSec{padding: 40px 0;}
    .footerContent { flex-direction: column; gap: 30px; } 
    .footerLinksSec { flex-direction: column; gap: 30px; } 
@@ -225,7 +221,8 @@
    .footerAddressSec p{margin-bottom: 10px;}
    .socialMediaList{align-items: center;}
    .socialMediaLinks>p{margin: 0;}
-   .footerLinksList > li > a{font-size: 20px;}
+   .footerLinksList > li > a{margin-bottom: 12px;}
+   .footerLogoSec{gap: 30px;}
 
 
 }
