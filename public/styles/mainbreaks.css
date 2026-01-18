@@ -61,6 +61,16 @@
     .navLinksList{gap:40px;}
     .navLinksList > li > a{font-size: 20px;}
     
+    /*footer*/
+    .footerWrap{padding: 80px 0;}
+    .footerContent{gap: 60px;}
+    .footerAddressSec > p{font-size: 24px;}
+    .socialMediaLinks > p{font-size: 24px;}
+    .footerContent span{font-size: 22px;}
+    .footerLinksList > li > a{font-size: 20px;}
+    .footerLinksSec{gap: 120px;}
+    .socialMediaLinks{gap: 40px;}
+    .socialMediaList{gap: 20px;}
 
     
 }
@@ -75,16 +85,26 @@
     .navLinksList > li > a{font-size: 18px;}
     .talkWithUsSec span{font-size: 16px;}
     .headerLogo > img{max-width: 100px;}
-    .headerWrap.scrolled .headerLogo > img {top: -35px;}
-    /* .headerWrap.fix{padding: 10px 50px;}  Already applied in .headerWrap */
+    .headerWrap.scrolled .headerLogo > img {top: -35px;}    
     .headerWrap .headerLogoSec > a > img, .headerWrap.fix .headerLogoSec > a > img{transform: none;max-width: 145px;}
     .headerWrap .navLinksList, .headerWrap.fix .navLinksList{gap:20px}
 
-
     /* Why Choose Us Home */    
+    .whyChooseContent > h2{font-size: 30px;}
+    .whyChooseContent .SecHeading{font-size: 25px;}
     .whyChooseContent.paddingLeft{padding-left:30px}
     .whyChooseContent.paddingRight{padding-right:30px}
 
+    /*At glance*/
+    .atGlanceWrap{padding: 65px 0;}
+    .atGlanceWrap::after{border:15px solid #fff;}
+    .atGlanceGrid{padding: 0 20px;}
+
+    /*Post Tension*/
+    .postTensionWrap:after{border:15px solid #fff;}
+    .postTensionContent{padding: 0 20px;}
+
+    /*home form*/
     .homeFormSec form{flex-wrap: wrap;}
 
    
@@ -165,7 +185,7 @@
     .clientReviewContent{flex-direction: column;}
 
     /**/
-    .postTensionWrap{min-height: 550px;margin: 20px;}
+    .postTensionWrap{min-height: 550px;}
     .postTensionContent span{font-size: 30px;}
     .postTensionContent h2{font-size: 40px;margin-bottom: 25px;}
     .postTensionContent p{font-size: 24px;}
@@ -233,7 +253,8 @@
     .bannerContent h1{font-size: 35px;}
 
     /**/
-    .atGlanceWrap{margin: 20px 15px;height: 65vh;}
+    .atGlanceWrap{height: 65vh;}
+    .atGlanceWrap:after{border: 15px solid #fff;}
     .atGlanceItem h2 { font-size: 30px; }
     .atGlanceGrid{display: flex;flex-direction: column;gap: 20px;align-items: center;gap: 40px;min-height: auto;justify-content: center;}
     .atGlanceItem span{font-size: 30px;}
@@ -285,7 +306,8 @@
 
 
     /*banner*/
-    .bannerContent p{font-size: 16px;}
+    .bannerContent h1{font-size: 30px;}
+    .bannerContent p{font-size: 16px;padding: 0;}
 
     /**/
     .homeFormHead p{font-size: 18px;}
